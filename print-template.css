@@ -27,13 +27,15 @@
   }
 
   .pdf-page {
-    min-height: 273mm;
+    min-height: 272mm;
     position: relative;
-    page-break-after: always;
+    break-after: auto;
+    page-break-after: auto;
   }
 
-  .pdf-page:last-child {
-    page-break-after: auto;
+  .pdf-page + .pdf-page {
+    break-before: page;
+    page-break-before: always;
   }
 
   .pdf-logo {
