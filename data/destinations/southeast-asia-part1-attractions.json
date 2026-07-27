@@ -1,0 +1,1067 @@
+{
+  "database_name": "Global Holidayz Premium Attractions",
+  "region": "Southeast Asia Part 1",
+  "version": "1.0.0",
+  "generated_on": "2026-07-27",
+  "record_count": 120,
+  "destinations": [
+    {
+      "destination": "Cambodia",
+      "attraction_count": 20,
+      "verification_source": "https://www.tourismcambodia.org/",
+      "categories": {
+        "Architecture": [
+          {
+            "attraction_name": "Angkor Wat",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Angkor Archaeological Park, Siem Reap Province",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Angkor Wat at Angkor Archaeological Park, Siem Reap Province, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Bayon Temple",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Angkor Thom, Angkor Archaeological Park, Siem Reap Province",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Bayon Temple at Angkor Thom, Angkor Archaeological Park, Siem Reap Province, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Banteay Srei",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Banteay Srei District, Siem Reap Province",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Banteay Srei at Banteay Srei District, Siem Reap Province, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Royal Palace and Silver Pagoda",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Samdach Sothearos Boulevard, riverside Phnom Penh",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Royal Palace and Silver Pagoda at Samdach Sothearos Boulevard, riverside Phnom Penh, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Cultural": [
+          {
+            "attraction_name": "Ta Prohm",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Angkor Archaeological Park, Siem Reap Province",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Ta Prohm at Angkor Archaeological Park, Siem Reap Province, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Phnom Bakheng",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Angkor Archaeological Park, southwest of Angkor Thom",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Phnom Bakheng at Angkor Archaeological Park, southwest of Angkor Thom, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Temple of Preah Vihear",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Dangrek Mountains, Choam Khsant District, Preah Vihear Province",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Temple of Preah Vihear at Dangrek Mountains, Choam Khsant District, Preah Vihear Province, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Koh Ker Archaeological Site",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Srayang commune, Kulen District, Preah Vihear Province",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Koh Ker Archaeological Site at Srayang commune, Kulen District, Preah Vihear Province, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Sambor Prei Kuk",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Prasat Sambour District, Kampong Thom Province",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Sambor Prei Kuk at Prasat Sambour District, Kampong Thom Province, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "National Museum of Cambodia",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Preah Ang Eng Street, central Phnom Penh",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of National Museum of Cambodia at Preah Ang Eng Street, central Phnom Penh, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Tuol Sleng Genocide Museum",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Street 113, Boeung Keng Kang, Phnom Penh",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Tuol Sleng Genocide Museum at Street 113, Boeung Keng Kang, Phnom Penh, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Choeung Ek Genocidal Center",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Choeung Ek commune, Dangkor District, Phnom Penh",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Choeung Ek Genocidal Center at Choeung Ek commune, Dangkor District, Phnom Penh, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Wat Phnom",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Daun Penh District, Phnom Penh",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Wat Phnom at Daun Penh District, Phnom Penh, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Tonlé Sap Floating Villages",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Kampong Phluk and Chong Kneas, Siem Reap Province",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Tonlé Sap Floating Villages at Kampong Phluk and Chong Kneas, Siem Reap Province, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Nature": [
+          {
+            "attraction_name": "Phnom Penh Riverfront Cruise",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Sisowath Quay at the Mekong and Tonlé Sap confluence, Phnom Penh",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Phnom Penh Riverfront Cruise at Sisowath Quay at the Mekong and Tonlé Sap confluence, Phnom Penh, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Bokor National Park",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Elephant Mountains above Kampot",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Bokor National Park at Elephant Mountains above Kampot, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Koh Rong",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Koh Rong Archipelago, Sihanoukville Province",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Koh Rong at Koh Rong Archipelago, Sihanoukville Province, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Culinary": [
+          {
+            "attraction_name": "Kampot Pepper Estates",
+            "thematic_category": "Culinary",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "Reserved tastings and specialist storytelling provide an intimate introduction to regional craftsmanship, provenance and flavour.",
+            "exact_location_context": "Kampot countryside around La Plantation and Trapeang Sangkae",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Kampot Pepper Estates at Kampot countryside around La Plantation and Trapeang Sangkae, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining culinary character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Kep Crab Market",
+            "thematic_category": "Culinary",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "Reserved tastings and specialist storytelling provide an intimate introduction to regional craftsmanship, provenance and flavour.",
+            "exact_location_context": "Kep waterfront, Kep Province",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Kep Crab Market at Kep waterfront, Kep Province, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining culinary character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Adventure": [
+          {
+            "attraction_name": "Cardamom Mountains",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Protected forests of Koh Kong and Pursat provinces",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Cardamom Mountains at Protected forests of Koh Kong and Pursat provinces, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ]
+      }
+    },
+    {
+      "destination": "Indonesia",
+      "attraction_count": 20,
+      "verification_source": "https://www.indonesia.travel/us/en",
+      "categories": {
+        "Cultural": [
+          {
+            "attraction_name": "Borobudur Temple Compounds",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Borobudur District, Magelang Regency, Central Java",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Borobudur Temple Compounds at Borobudur District, Magelang Regency, Central Java, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Kraton Yogyakarta",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Royal Palace complex, Kraton District, Yogyakarta",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Kraton Yogyakarta at Royal Palace complex, Kraton District, Yogyakarta, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Uluwatu Temple",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Pecatu cliff edge, South Kuta, Bali",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Uluwatu Temple at Pecatu cliff edge, South Kuta, Bali, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Besakih Great Temple",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Besakih village on Mount Agung, Karangasem, Bali",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Besakih Great Temple at Besakih village on Mount Agung, Karangasem, Bali, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Tana Toraja",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Toraja highlands, South Sulawesi",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Tana Toraja at Toraja highlands, South Sulawesi, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "National Museum of Indonesia",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Merdeka Barat, Central Jakarta",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of National Museum of Indonesia at Merdeka Barat, Central Jakarta, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Architecture": [
+          {
+            "attraction_name": "Prambanan Temple Compounds",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Prambanan plain between Yogyakarta and Klaten",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Prambanan Temple Compounds at Prambanan plain between Yogyakarta and Klaten, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Tanah Lot",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Beraban village, Kediri District, Tabanan, Bali",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Tanah Lot at Beraban village, Kediri District, Tabanan, Bali, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Jakarta Old Town",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Kota Tua, West Jakarta",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Jakarta Old Town at Kota Tua, West Jakarta, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Nature": [
+          {
+            "attraction_name": "Sacred Monkey Forest Sanctuary",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Padangtegal, Ubud, Bali",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Sacred Monkey Forest Sanctuary at Padangtegal, Ubud, Bali, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Tegallalang Rice Terraces",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Tegallalang District, Gianyar Regency, Bali",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Tegallalang Rice Terraces at Tegallalang District, Gianyar Regency, Bali, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Komodo National Park",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Komodo, Rinca and Padar islands, East Nusa Tenggara",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Komodo National Park at Komodo, Rinca and Padar islands, East Nusa Tenggara, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Raja Ampat Islands",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Raja Ampat Regency, Southwest Papua",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Raja Ampat Islands at Raja Ampat Regency, Southwest Papua, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Mount Bromo",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Bromo Tengger Semeru National Park, East Java",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Mount Bromo at Bromo Tengger Semeru National Park, East Java, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Lake Toba and Samosir Island",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "North Sumatra highlands",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Lake Toba and Samosir Island at North Sumatra highlands, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Gili Islands",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Gili Trawangan, Gili Meno and Gili Air, North Lombok",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Gili Islands at Gili Trawangan, Gili Meno and Gili Air, North Lombok, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Adventure": [
+          {
+            "attraction_name": "Mount Batur",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Batur caldera, Kintamani District, Bali",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Mount Batur at Batur caldera, Kintamani District, Bali, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Padar Island",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Komodo National Park, West Manggarai, East Nusa Tenggara",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Padar Island at Komodo National Park, West Manggarai, East Nusa Tenggara, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Ijen Crater",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Ijen volcanic complex, Banyuwangi and Bondowoso, East Java",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Ijen Crater at Ijen volcanic complex, Banyuwangi and Bondowoso, East Java, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Bunaken National Park",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Bunaken Island and Manado Bay, North Sulawesi",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Bunaken National Park at Bunaken Island and Manado Bay, North Sulawesi, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ]
+      }
+    },
+    {
+      "destination": "Malaysia",
+      "attraction_count": 20,
+      "verification_source": "https://www.malaysia.travel/",
+      "categories": {
+        "Architecture": [
+          {
+            "attraction_name": "Petronas Twin Towers",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Kuala Lumpur City Centre",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Petronas Twin Towers at Kuala Lumpur City Centre, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Thean Hou Temple",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Robson Heights, Kuala Lumpur",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Thean Hou Temple at Robson Heights, Kuala Lumpur, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "George Town World Heritage Site",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Historic core of George Town, Penang",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of George Town World Heritage Site at Historic core of George Town, Penang, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Kek Lok Si Temple",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Air Itam, Penang Island",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Kek Lok Si Temple at Air Itam, Penang Island, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Langkawi Sky Bridge",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Machinchang mountain range, Langkawi, Kedah",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Langkawi Sky Bridge at Machinchang mountain range, Langkawi, Kedah, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Cultural": [
+          {
+            "attraction_name": "Islamic Arts Museum Malaysia",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Jalan Lembah Perdana, Kuala Lumpur",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Islamic Arts Museum Malaysia at Jalan Lembah Perdana, Kuala Lumpur, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Batu Caves",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Gombak District, Selangor",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Batu Caves at Gombak District, Selangor, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Pinang Peranakan Mansion",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Church Street, George Town, Penang",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Pinang Peranakan Mansion at Church Street, George Town, Penang, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Melaka Historic Centre",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Dutch Square and Jonker quarter, Melaka",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Melaka Historic Centre at Dutch Square and Jonker quarter, Melaka, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Nature": [
+          {
+            "attraction_name": "Penang Hill",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Bukit Bendera above Air Itam, Penang Island",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Penang Hill at Bukit Bendera above Air Itam, Penang Island, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Kilim Karst Geoforest Park",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Northeastern Langkawi, Kedah",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Kilim Karst Geoforest Park at Northeastern Langkawi, Kedah, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Kinabalu Park",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Crocker Range near Kundasang, Sabah",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Kinabalu Park at Crocker Range near Kundasang, Sabah, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Sepilok Orangutan Rehabilitation Centre",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Sepilok, Sandakan District, Sabah",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Sepilok Orangutan Rehabilitation Centre at Sepilok, Sandakan District, Sabah, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Danum Valley Conservation Area",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Lahad Datu District, Sabah",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Danum Valley Conservation Area at Lahad Datu District, Sabah, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Adventure": [
+          {
+            "attraction_name": "Taman Negara",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Kuala Tahan gateway, Pahang",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Taman Negara at Kuala Tahan gateway, Pahang, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Mount Kinabalu",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Kinabalu Park, Ranau District, Sabah",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Mount Kinabalu at Kinabalu Park, Ranau District, Sabah, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Gunung Mulu National Park",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Mulu, Sarawak",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Gunung Mulu National Park at Mulu, Sarawak, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Sipadan Island",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Celebes Sea off Semporna, Sabah",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Sipadan Island at Celebes Sea off Semporna, Sabah, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Culinary": [
+          {
+            "attraction_name": "Cameron Highlands Tea Country",
+            "thematic_category": "Culinary",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "Reserved tastings and specialist storytelling provide an intimate introduction to regional craftsmanship, provenance and flavour.",
+            "exact_location_context": "Tea estates around Brinchang and Tanah Rata, Pahang",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Cameron Highlands Tea Country at Tea estates around Brinchang and Tanah Rata, Pahang, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining culinary character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Jonker Street",
+            "thematic_category": "Culinary",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "Reserved tastings and specialist storytelling provide an intimate introduction to regional craftsmanship, provenance and flavour.",
+            "exact_location_context": "Jalan Hang Jebat, historic Melaka",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Jonker Street at Jalan Hang Jebat, historic Melaka, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining culinary character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ]
+      }
+    },
+    {
+      "destination": "Philippines",
+      "attraction_count": 20,
+      "verification_source": "https://philippines.travel/",
+      "categories": {
+        "Cultural": [
+          {
+            "attraction_name": "Intramuros",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Walled City, Manila",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Intramuros at Walled City, Manila, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "National Museum of Fine Arts",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Padre Burgos Avenue, Ermita, Manila",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of National Museum of Fine Arts at Padre Burgos Avenue, Ermita, Manila, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Banaue Rice Terraces",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Banaue Municipality, Ifugao Province",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Banaue Rice Terraces at Banaue Municipality, Ifugao Province, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Magellan's Cross and Basilica Minore del Santo Niño",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Plaza Sugbo, Cebu City",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Magellan's Cross and Basilica Minore del Santo Niño at Plaza Sugbo, Cebu City, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Architecture": [
+          {
+            "attraction_name": "San Agustin Church",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "General Luna Street, Intramuros, Manila",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of San Agustin Church at General Luna Street, Intramuros, Manila, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Calle Crisologo",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Mestizo District, Vigan, Ilocos Sur",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Calle Crisologo at Mestizo District, Vigan, Ilocos Sur, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Nature": [
+          {
+            "attraction_name": "Chocolate Hills",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Central Bohol around Carmen and Sagbayan",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Chocolate Hills at Central Bohol around Carmen and Sagbayan, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Loboc River",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Loboc, Bohol",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Loboc River at Loboc, Bohol, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "White Beach Boracay",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Barangays Balabag and Manoc-Manoc, Boracay Island, Aklan",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of White Beach Boracay at Barangays Balabag and Manoc-Manoc, Boracay Island, Aklan, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Bacuit Bay",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "El Nido, northern Palawan",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Bacuit Bay at El Nido, northern Palawan, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Puerto Princesa Subterranean River National Park",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Sabang, Puerto Princesa, Palawan",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Puerto Princesa Subterranean River National Park at Sabang, Puerto Princesa, Palawan, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Kayangan Lake",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Coron Island, northern Palawan",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Kayangan Lake at Coron Island, northern Palawan, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Mayon Volcano",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Albay Province, Bicol Region",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Mayon Volcano at Albay Province, Bicol Region, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Taal Volcano and Lake",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Talisay and Laurel, Batangas",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Taal Volcano and Lake at Talisay and Laurel, Batangas, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Batanes Islands",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Batan and Sabtang islands, Batanes Province",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Batanes Islands at Batan and Sabtang islands, Batanes Province, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Adventure": [
+          {
+            "attraction_name": "Coron Wreck Diving",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Coron Bay, Busuanga, Palawan",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Coron Wreck Diving at Coron Bay, Busuanga, Palawan, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Kawasan Falls",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Badian, southwest Cebu",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Kawasan Falls at Badian, southwest Cebu, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Moalboal Sardine Run",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Panagsama Beach, Moalboal, Cebu",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Moalboal Sardine Run at Panagsama Beach, Moalboal, Cebu, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Cloud 9 Siargao",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "General Luna, Siargao Island, Surigao del Norte",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Cloud 9 Siargao at General Luna, Siargao Island, Surigao del Norte, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Apo Reef Natural Park",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Sablayan, Occidental Mindoro",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Apo Reef Natural Park at Sablayan, Occidental Mindoro, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ]
+      }
+    },
+    {
+      "destination": "Singapore",
+      "attraction_count": 20,
+      "verification_source": "https://www.visitsingapore.com/",
+      "categories": {
+        "Architecture": [
+          {
+            "attraction_name": "Gardens by the Bay",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Marina Gardens Drive, Marina Bay",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Gardens by the Bay at Marina Gardens Drive, Marina Bay, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Marina Bay Sands SkyPark",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Bayfront Avenue, Marina Bay",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Marina Bay Sands SkyPark at Bayfront Avenue, Marina Bay, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Jewel Changi Airport",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Airport Boulevard, Changi",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Jewel Changi Airport at Airport Boulevard, Changi, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Raffles Singapore",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Beach Road, Downtown Core",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Raffles Singapore at Beach Road, Downtown Core, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Cultural": [
+          {
+            "attraction_name": "ArtScience Museum",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Marina Bay Sands, Bayfront Avenue",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of ArtScience Museum at Marina Bay Sands, Bayfront Avenue, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "National Gallery Singapore",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Saint Andrew's Road, Civic District",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of National Gallery Singapore at Saint Andrew's Road, Civic District, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Asian Civilisations Museum",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Empress Place, Singapore River",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Asian Civilisations Museum at Empress Place, Singapore River, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Chinatown and Buddha Tooth Relic Temple",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "South Bridge Road, Chinatown",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Chinatown and Buddha Tooth Relic Temple at South Bridge Road, Chinatown, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Kampong Glam and Sultan Mosque",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Muscat Street and Arab Street, Kampong Glam",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Kampong Glam and Sultan Mosque at Muscat Street and Arab Street, Kampong Glam, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Little India Heritage Quarter",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Serangoon Road and Tekka district",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Little India Heritage Quarter at Serangoon Road and Tekka district, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Peranakan Museum",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Armenian Street, Civic District",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Peranakan Museum at Armenian Street, Civic District, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Nature": [
+          {
+            "attraction_name": "Singapore Botanic Gardens",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Tanglin and Cluny Road",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Singapore Botanic Gardens at Tanglin and Cluny Road, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "National Orchid Garden",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Central Core, Singapore Botanic Gardens",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of National Orchid Garden at Central Core, Singapore Botanic Gardens, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Singapore Zoo",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Mandai Lake Road, Mandai Wildlife Reserve",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Singapore Zoo at Mandai Lake Road, Mandai Wildlife Reserve, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Night Safari",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Mandai Lake Road, Mandai Wildlife Reserve",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Night Safari at Mandai Lake Road, Mandai Wildlife Reserve, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "River Wonders",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Mandai Lake Road, Mandai Wildlife Reserve",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of River Wonders at Mandai Lake Road, Mandai Wildlife Reserve, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "SEA Aquarium",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Resorts World Sentosa, Sentosa Island",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of SEA Aquarium at Resorts World Sentosa, Sentosa Island, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Southern Ridges",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Mount Faber to Kent Ridge Park",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Southern Ridges at Mount Faber to Kent Ridge Park, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Culinary": [
+          {
+            "attraction_name": "Maxwell Food Centre",
+            "thematic_category": "Culinary",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "Reserved tastings and specialist storytelling provide an intimate introduction to regional craftsmanship, provenance and flavour.",
+            "exact_location_context": "Kadayanallur Street, Chinatown",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Maxwell Food Centre at Kadayanallur Street, Chinatown, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining culinary character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Adventure": [
+          {
+            "attraction_name": "Pulau Ubin and Chek Jawa Wetlands",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Pulau Ubin, northeastern Singapore",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Pulau Ubin and Chek Jawa Wetlands at Pulau Ubin, northeastern Singapore, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ]
+      }
+    },
+    {
+      "destination": "Thailand",
+      "attraction_count": 20,
+      "verification_source": "https://www.tourismthailand.org/",
+      "categories": {
+        "Architecture": [
+          {
+            "attraction_name": "Grand Palace",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Na Phra Lan Road, Phra Nakhon, Bangkok",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Grand Palace at Na Phra Lan Road, Phra Nakhon, Bangkok, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Wat Arun",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Thonburi bank of the Chao Phraya, Bangkok",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Wat Arun at Thonburi bank of the Chao Phraya, Bangkok, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Wat Rong Khun",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Pa O Don Chai, Chiang Rai Province",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Wat Rong Khun at Pa O Don Chai, Chiang Rai Province, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Phuket Old Town",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Thalang and Dibuk roads, Mueang Phuket",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Phuket Old Town at Thalang and Dibuk roads, Mueang Phuket, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Cultural": [
+          {
+            "attraction_name": "Wat Pho",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Sanam Chai Road, Phra Nakhon, Bangkok",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Wat Pho at Sanam Chai Road, Phra Nakhon, Bangkok, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Jim Thompson House Museum",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Soi Kasemsan 2, Pathum Wan, Bangkok",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Jim Thompson House Museum at Soi Kasemsan 2, Pathum Wan, Bangkok, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Bangkok National Museum",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Na Phra That Road, Phra Nakhon, Bangkok",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Bangkok National Museum at Na Phra That Road, Phra Nakhon, Bangkok, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Ayutthaya Historical Park",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Historic island, Phra Nakhon Si Ayutthaya",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Ayutthaya Historical Park at Historic island, Phra Nakhon Si Ayutthaya, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Sukhothai Historical Park",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Mueang Kao, Sukhothai Province",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Sukhothai Historical Park at Mueang Kao, Sukhothai Province, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Wat Phra That Doi Suthep",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Doi Suthep, Chiang Mai Province",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Wat Phra That Doi Suthep at Doi Suthep, Chiang Mai Province, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Golden Triangle",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Sop Ruak, Chiang Saen District, Chiang Rai",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Golden Triangle at Sop Ruak, Chiang Saen District, Chiang Rai, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Nature": [
+          {
+            "attraction_name": "Elephant Nature Park",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Mae Taeng District, Chiang Mai Province",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Elephant Nature Park at Mae Taeng District, Chiang Mai Province, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Khao Yai National Park",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Nakhon Ratchasima, Prachinburi and Saraburi provinces",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Khao Yai National Park at Nakhon Ratchasima, Prachinburi and Saraburi provinces, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Erawan National Park",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Si Sawat District, Kanchanaburi Province",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Erawan National Park at Si Sawat District, Kanchanaburi Province, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Railay Beach",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Railay Peninsula, Krabi Province",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Railay Beach at Railay Peninsula, Krabi Province, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Phang Nga Bay",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Ao Phang Nga National Park, Phang Nga Province",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Phang Nga Bay at Ao Phang Nga National Park, Phang Nga Province, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Phi Phi Islands",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Hat Noppharat Thara–Mu Ko Phi Phi National Park, Krabi",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Phi Phi Islands at Hat Noppharat Thara–Mu Ko Phi Phi National Park, Krabi, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Adventure": [
+          {
+            "attraction_name": "Similan Islands",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Mu Ko Similan National Park, Phang Nga Province",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Similan Islands at Mu Ko Similan National Park, Phang Nga Province, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Mu Ko Ang Thong National Marine Park",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Gulf of Thailand west of Ko Samui",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Mu Ko Ang Thong National Marine Park at Gulf of Thailand west of Ko Samui, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Culinary": [
+          {
+            "attraction_name": "Amphawa Floating Market",
+            "thematic_category": "Culinary",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "Reserved tastings and specialist storytelling provide an intimate introduction to regional craftsmanship, provenance and flavour.",
+            "exact_location_context": "Amphawa canal, Samut Songkhram Province",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Amphawa Floating Market at Amphawa canal, Samut Songkhram Province, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining culinary character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ]
+      }
+    }
+  ]
+}

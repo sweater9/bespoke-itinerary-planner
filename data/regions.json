@@ -1,0 +1,14 @@
+[
+  {"region":"Western Europe","file":"western-europe-attractions.json"},
+  {"region":"Alpine Europe and Microstates","file":"alpine-europe-microstates-attractions.json"},
+  {"region":"Nordic Europe","file":"nordic-europe-attractions.json"},
+  {"region":"Southern Europe Part 1","file":"southern-europe-part1-attractions.json"},
+  {"region":"Southern Europe Part 2","file":"southern-europe-part2-attractions.json"},
+  {"region":"Central and Eastern Europe Part 1","file":"central-eastern-europe-part1-attractions.json"},
+  {"region":"Central and Eastern Europe Part 2","file":"central-eastern-europe-part2-attractions.json"},
+  {"region":"Southeast Asia","file":"southeast-asia-part1-attractions.json"},
+  {"region":"Asia-Pacific","file":"asia-pacific-attractions.json"},
+  {"region":"Central Asia and North Africa","file":"central-asia-north-africa-attractions.json"},
+  {"region":"Africa and Indian Ocean","file":"africa-indian-ocean-attractions.json"},
+  {"region":"Gulf, United Kingdom and Baku","file":"gulf-uk-baku-expansion.json"}
+]

@@ -1,0 +1,890 @@
+{
+  "database_name": "Global Holidayz Premium Attractions",
+  "region": "Southern and Eastern Africa and Indian Ocean",
+  "version": "1.0.0",
+  "generated_on": "2026-07-27",
+  "record_count": 100,
+  "destinations": [
+    {
+      "destination": "South Africa",
+      "attraction_count": 20,
+      "verification_source": "https://www.southafrica.net/",
+      "categories": {
+        "Nature": [
+          {
+            "attraction_name": "Table Mountain",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Table Mountain National Park, Cape Town",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Table Mountain at Table Mountain National Park, Cape Town, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Cape Point",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Cape of Good Hope section, Cape Peninsula",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Cape Point at Cape of Good Hope section, Cape Peninsula, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Kirstenbosch National Botanical Garden",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Eastern slopes of Table Mountain, Cape Town",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Kirstenbosch National Botanical Garden at Eastern slopes of Table Mountain, Cape Town, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Boulders Penguin Colony",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Boulders section, Simon's Town",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Boulders Penguin Colony at Boulders section, Simon's Town, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Garden Route",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Mossel Bay to Storms River, Western and Eastern Cape",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Garden Route at Mossel Bay to Storms River, Western and Eastern Cape, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Kruger National Park",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Mpumalanga and Limpopo provinces",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Kruger National Park at Mpumalanga and Limpopo provinces, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Sabi Sand Nature Reserve",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Western boundary of Kruger National Park, Mpumalanga",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Sabi Sand Nature Reserve at Western boundary of Kruger National Park, Mpumalanga, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Blyde River Canyon",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Mpumalanga Drakensberg escarpment",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Blyde River Canyon at Mpumalanga Drakensberg escarpment, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "iSimangaliso Wetland Park",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Zululand coast, KwaZulu-Natal",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of iSimangaliso Wetland Park at Zululand coast, KwaZulu-Natal, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Hluhluwe-iMfolozi Park",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Zululand, KwaZulu-Natal",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Hluhluwe-iMfolozi Park at Zululand, KwaZulu-Natal, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Addo Elephant National Park",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Sundays River region, Eastern Cape",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Addo Elephant National Park at Sundays River region, Eastern Cape, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Hermanus Whale Coast",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Walker Bay, Western Cape",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Hermanus Whale Coast at Walker Bay, Western Cape, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Cultural": [
+          {
+            "attraction_name": "Robben Island",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Table Bay, Cape Town",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Robben Island at Table Bay, Cape Town, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "V&A Waterfront",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Victoria Basin, Cape Town",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of V&A Waterfront at Victoria Basin, Cape Town, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Apartheid Museum",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Gold Reef City precinct, Johannesburg",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Apartheid Museum at Gold Reef City precinct, Johannesburg, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Constitution Hill",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Braamfontein, Johannesburg",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Constitution Hill at Braamfontein, Johannesburg, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Cradle of Humankind",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Sterkfontein Valley, Gauteng",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Cradle of Humankind at Sterkfontein Valley, Gauteng, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Culinary": [
+          {
+            "attraction_name": "Cape Winelands",
+            "thematic_category": "Culinary",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "Reserved tastings and specialist storytelling provide an intimate introduction to regional craftsmanship, provenance and flavour.",
+            "exact_location_context": "Stellenbosch, Franschhoek and Paarl, Western Cape",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Cape Winelands at Stellenbosch, Franschhoek and Paarl, Western Cape, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining culinary character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Adventure": [
+          {
+            "attraction_name": "Drakensberg Mountains",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Maloti-Drakensberg Park, KwaZulu-Natal",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Drakensberg Mountains at Maloti-Drakensberg Park, KwaZulu-Natal, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Panorama Route",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Mpumalanga escarpment",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Panorama Route at Mpumalanga escarpment, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ]
+      }
+    },
+    {
+      "destination": "Mauritius",
+      "attraction_count": 20,
+      "verification_source": "https://mauritiusnow.com/",
+      "categories": {
+        "Adventure": [
+          {
+            "attraction_name": "Le Morne Brabant",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Le Morne Peninsula, southwest Mauritius",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Le Morne Brabant at Le Morne Peninsula, southwest Mauritius, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Black River Gorges National Park",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Southwestern highlands",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Black River Gorges National Park at Southwestern highlands, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Blue Bay Marine Park",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Blue Bay, southeast coast",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Blue Bay Marine Park at Blue Bay, southeast coast, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Le Morne Lagoon",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Southwestern reef lagoon",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Le Morne Lagoon at Southwestern reef lagoon, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Casela Nature Parks",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Cascavelle, western Mauritius",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Casela Nature Parks at Cascavelle, western Mauritius, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Nature": [
+          {
+            "attraction_name": "Seven Coloured Earth Geopark",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Chamarel, Rivière Noire District",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Seven Coloured Earth Geopark at Chamarel, Rivière Noire District, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Chamarel Waterfall",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Chamarel, Rivière Noire District",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Chamarel Waterfall at Chamarel, Rivière Noire District, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Île aux Cerfs",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Lagoon off Trou d'Eau Douce, east coast",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Île aux Cerfs at Lagoon off Trou d'Eau Douce, east coast, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Pamplemousses Botanical Garden",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Pamplemousses District",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Pamplemousses Botanical Garden at Pamplemousses District, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "La Vanille Nature Park",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Rivière des Anguilles, southern Mauritius",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of La Vanille Nature Park at Rivière des Anguilles, southern Mauritius, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Gris Gris Beach",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Souillac, Savanne District",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Gris Gris Beach at Souillac, Savanne District, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Rodrigues Island",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Rodrigues, outer islands of Mauritius",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Rodrigues Island at Rodrigues, outer islands of Mauritius, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Cultural": [
+          {
+            "attraction_name": "Aapravasi Ghat",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Trou Fanfaron, Port Louis",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Aapravasi Ghat at Trou Fanfaron, Port Louis, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Caudan Waterfront",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Port Louis harbour",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Caudan Waterfront at Port Louis harbour, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Ganga Talao",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Grand Bassin crater lake, Savanne District",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Ganga Talao at Grand Bassin crater lake, Savanne District, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "L'Aventure du Sucre",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Beau Plan, Pamplemousses",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of L'Aventure du Sucre at Beau Plan, Pamplemousses, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Culinary": [
+          {
+            "attraction_name": "Port Louis Central Market",
+            "thematic_category": "Culinary",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "Reserved tastings and specialist storytelling provide an intimate introduction to regional craftsmanship, provenance and flavour.",
+            "exact_location_context": "Corderie Street, Port Louis",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Port Louis Central Market at Corderie Street, Port Louis, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining culinary character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Mauritian Creole Culinary Experience",
+            "thematic_category": "Culinary",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "Reserved tastings and specialist storytelling provide an intimate introduction to regional craftsmanship, provenance and flavour.",
+            "exact_location_context": "Port Louis and coastal villages",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Mauritian Creole Culinary Experience at Port Louis and coastal villages, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining culinary character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Architecture": [
+          {
+            "attraction_name": "Eureka House",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Moka, central Mauritius",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Eureka House at Moka, central Mauritius, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Château de Labourdonnais",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Mapou, Rivière du Rempart District",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Château de Labourdonnais at Mapou, Rivière du Rempart District, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ]
+      }
+    },
+    {
+      "destination": "Seychelles",
+      "attraction_count": 20,
+      "verification_source": "https://www.seychelles.com/",
+      "categories": {
+        "Nature": [
+          {
+            "attraction_name": "Anse Source d'Argent",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "L'Union Estate, La Digue",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Anse Source d'Argent at L'Union Estate, La Digue, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Vallée de Mai Nature Reserve",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Central Praslin",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Vallée de Mai Nature Reserve at Central Praslin, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Curieuse Marine National Park",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Curieuse Island off Praslin",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Curieuse Marine National Park at Curieuse Island off Praslin, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Cousin Island Special Reserve",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "West of Praslin",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Cousin Island Special Reserve at West of Praslin, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Anse Lazio",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Northwest Praslin",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Anse Lazio at Northwest Praslin, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Beau Vallon Beach",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Northwestern Mahé",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Beau Vallon Beach at Northwestern Mahé, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Anse Intendance",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Southern Mahé",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Anse Intendance at Southern Mahé, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Seychelles National Botanical Gardens",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Mont Fleuri, Mahé",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Seychelles National Botanical Gardens at Mont Fleuri, Mahé, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "La Digue Island",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Inner Islands of Seychelles",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of La Digue Island at Inner Islands of Seychelles, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Fond Ferdinand Nature Reserve",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Southern Praslin",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Fond Ferdinand Nature Reserve at Southern Praslin, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Coco de Mer Experience",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Praslin Island",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Coco de Mer Experience at Praslin Island, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Adventure": [
+          {
+            "attraction_name": "Aldabra Atoll",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Outer Islands of Seychelles",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Aldabra Atoll at Outer Islands of Seychelles, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Morne Seychellois National Park",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Western Mahé",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Morne Seychellois National Park at Western Mahé, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Sainte Anne Marine National Park",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Islands northeast of Mahé",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Sainte Anne Marine National Park at Islands northeast of Mahé, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Silhouette Island",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Northwest of Mahé",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Silhouette Island at Northwest of Mahé, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Cultural": [
+          {
+            "attraction_name": "Victoria Market",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Market Street, Victoria, Mahé",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Victoria Market at Market Street, Victoria, Mahé, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Mission Lodge Viewpoint",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Sans Soucis Road, Morne Seychellois",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Mission Lodge Viewpoint at Sans Soucis Road, Morne Seychellois, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Architecture": [
+          {
+            "attraction_name": "Eden Island Marina",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Off eastern Mahé near Victoria",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Eden Island Marina at Off eastern Mahé near Victoria, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Culinary": [
+          {
+            "attraction_name": "Creole Culinary Experience",
+            "thematic_category": "Culinary",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "Reserved tastings and specialist storytelling provide an intimate introduction to regional craftsmanship, provenance and flavour.",
+            "exact_location_context": "Mahé and Praslin",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Creole Culinary Experience at Mahé and Praslin, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining culinary character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Wellness": [
+          {
+            "attraction_name": "Private Island Spa Ritual",
+            "thematic_category": "Wellness",
+            "ideal_timeframe_duration": "3–4 hours",
+            "bespoke_selling_point": "A reserved premium session turns the local wellness tradition into a restorative experience defined by privacy, atmosphere and considered service.",
+            "exact_location_context": "Luxury private-island resorts across Seychelles",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Private Island Spa Ritual at Luxury private-island resorts across Seychelles, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining wellness character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ]
+      }
+    },
+    {
+      "destination": "Zanzibar",
+      "attraction_count": 20,
+      "verification_source": "https://zanzibartourism.go.tz/",
+      "categories": {
+        "Cultural": [
+          {
+            "attraction_name": "Stone Town",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Historic centre of Zanzibar City, Unguja",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Stone Town at Historic centre of Zanzibar City, Unguja, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Old Fort",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Mizingani Road, Stone Town",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Old Fort at Mizingani Road, Stone Town, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Freddie Mercury Museum",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Kenyatta Road, Stone Town",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Freddie Mercury Museum at Kenyatta Road, Stone Town, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Anglican Cathedral and Slave Market Site",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Mkunazini Road, Stone Town",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Anglican Cathedral and Slave Market Site at Mkunazini Road, Stone Town, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Prison Island",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Changuu Island west of Stone Town",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Prison Island at Changuu Island west of Stone Town, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Jambiani Village and Beach",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Southeastern Unguja",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Jambiani Village and Beach at Southeastern Unguja, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Mtoni Palace Ruins",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Maruhubi Road north of Stone Town",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Mtoni Palace Ruins at Maruhubi Road north of Stone Town, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Architecture": [
+          {
+            "attraction_name": "House of Wonders",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Mizingani Road, Stone Town",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of House of Wonders at Mizingani Road, Stone Town, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Culinary": [
+          {
+            "attraction_name": "Darajani Market",
+            "thematic_category": "Culinary",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "Reserved tastings and specialist storytelling provide an intimate introduction to regional craftsmanship, provenance and flavour.",
+            "exact_location_context": "Creek Road, Stone Town",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Darajani Market at Creek Road, Stone Town, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining culinary character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Spice Farm Experience",
+            "thematic_category": "Culinary",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "Reserved tastings and specialist storytelling provide an intimate introduction to regional craftsmanship, provenance and flavour.",
+            "exact_location_context": "Kizimbani and Kidichi, central Unguja",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Spice Farm Experience at Kizimbani and Kidichi, central Unguja, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining culinary character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "The Rock Restaurant",
+            "thematic_category": "Culinary",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "Reserved tastings and specialist storytelling provide an intimate introduction to regional craftsmanship, provenance and flavour.",
+            "exact_location_context": "Michamvi Pingwe, southeast Unguja",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of The Rock Restaurant at Michamvi Pingwe, southeast Unguja, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining culinary character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Nature": [
+          {
+            "attraction_name": "Jozani Chwaka Bay National Park",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Central-southern Unguja",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Jozani Chwaka Bay National Park at Central-southern Unguja, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Zanzibar Butterfly Centre",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Pete village near Jozani Forest",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Zanzibar Butterfly Centre at Pete village near Jozani Forest, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Nungwi Beach",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Northern tip of Unguja",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Nungwi Beach at Northern tip of Unguja, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Kendwa Beach",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Northwestern Unguja",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Kendwa Beach at Northwestern Unguja, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Kuza Cave",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Jambiani, southeastern Unguja",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Kuza Cave at Jambiani, southeastern Unguja, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Adventure": [
+          {
+            "attraction_name": "Mnemba Atoll",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Northeastern coast of Unguja",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Mnemba Atoll at Northeastern coast of Unguja, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Paje Beach",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Southeastern Unguja",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Paje Beach at Southeastern Unguja, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Safari Blue",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Menai Bay Conservation Area, southwest Unguja",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Safari Blue at Menai Bay Conservation Area, southwest Unguja, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Chumbe Island Coral Park",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Chumbe Island southwest of Unguja",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Chumbe Island Coral Park at Chumbe Island southwest of Unguja, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ]
+      }
+    },
+    {
+      "destination": "Kenya",
+      "attraction_count": 20,
+      "verification_source": "https://magicalkenya.com/",
+      "categories": {
+        "Nature": [
+          {
+            "attraction_name": "Maasai Mara National Reserve",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Narok County, southwestern Kenya",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Maasai Mara National Reserve at Narok County, southwestern Kenya, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Amboseli National Park",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Kajiado County beneath Mount Kilimanjaro",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Amboseli National Park at Kajiado County beneath Mount Kilimanjaro, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Tsavo East National Park",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Taita-Taveta and Kitui counties",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Tsavo East National Park at Taita-Taveta and Kitui counties, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Tsavo West National Park",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Taita-Taveta County",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Tsavo West National Park at Taita-Taveta County, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Lake Nakuru National Park",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Nakuru County, Great Rift Valley",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Lake Nakuru National Park at Nakuru County, Great Rift Valley, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Ol Pejeta Conservancy",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Laikipia County near Nanyuki",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Ol Pejeta Conservancy at Laikipia County near Nanyuki, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Samburu National Reserve",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Ewaso Ng'iro River, Samburu County",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Samburu National Reserve at Ewaso Ng'iro River, Samburu County, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Lake Naivasha",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Naivasha, Nakuru County",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Lake Naivasha at Naivasha, Nakuru County, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Nairobi National Park",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Southern edge of Nairobi",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Nairobi National Park at Southern edge of Nairobi, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Giraffe Centre",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Lang'ata, Nairobi",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Giraffe Centre at Lang'ata, Nairobi, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Diani Beach",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Kwale County, south coast",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Diani Beach at Kwale County, south coast, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "David Sheldrick Wildlife Trust Nursery",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "KWS Central Workshop Gate, Nairobi National Park",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of David Sheldrick Wildlife Trust Nursery at KWS Central Workshop Gate, Nairobi National Park, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Adventure": [
+          {
+            "attraction_name": "Mount Kenya National Park",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Central Kenya highlands",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Mount Kenya National Park at Central Kenya highlands, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Hell's Gate National Park",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "South of Lake Naivasha, Nakuru County",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Hell's Gate National Park at South of Lake Naivasha, Nakuru County, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Watamu Marine National Park",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Watamu, Kilifi County",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Watamu Marine National Park at Watamu, Kilifi County, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Great Rift Valley Balloon Safari",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Maasai Mara, Narok County",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Great Rift Valley Balloon Safari at Maasai Mara, Narok County, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Cultural": [
+          {
+            "attraction_name": "Karen Blixen Museum",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Karen Road, Nairobi",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Karen Blixen Museum at Karen Road, Nairobi, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Nairobi National Museum",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Museum Hill, Nairobi",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Nairobi National Museum at Museum Hill, Nairobi, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Fort Jesus",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Old Town waterfront, Mombasa",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Fort Jesus at Old Town waterfront, Mombasa, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Lamu Old Town",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Lamu Island, Lamu County",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Lamu Old Town at Lamu Island, Lamu County, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ]
+      }
+    }
+  ]
+}

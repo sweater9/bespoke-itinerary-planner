@@ -1,0 +1,896 @@
+{
+  "database_name": "Global Holidayz Premium Attractions",
+  "region": "Gulf, United Kingdom and Baku Expansion",
+  "version": "1.0.0",
+  "generated_on": "2026-07-27",
+  "record_count": 100,
+  "destinations": [
+    {
+      "destination": "Dubai",
+      "attraction_count": 20,
+      "verification_source": "https://www.visitdubai.com/en/",
+      "categories": {
+        "Architecture": [
+          {
+            "attraction_name": "Burj Khalifa",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Downtown Dubai, Sheikh Mohammed bin Rashid Boulevard",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Burj Khalifa at Downtown Dubai, Sheikh Mohammed bin Rashid Boulevard, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Museum of the Future",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Sheikh Zayed Road, Trade Centre district",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Museum of the Future at Sheikh Zayed Road, Trade Centre district, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Dubai Frame",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Zabeel Park, Al Kifaf",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Dubai Frame at Zabeel Park, Al Kifaf, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Jumeirah Mosque",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Jumeirah Beach Road, Jumeirah 1",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Jumeirah Mosque at Jumeirah Beach Road, Jumeirah 1, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Madinat Jumeirah",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Al Sufouh, Jumeirah",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Madinat Jumeirah at Al Sufouh, Jumeirah, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Palm Jumeirah and The View",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Palm Tower, Palm Jumeirah",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Palm Jumeirah and The View at Palm Tower, Palm Jumeirah, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Cultural": [
+          {
+            "attraction_name": "Al Fahidi Historical Neighbourhood",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Bur Dubai beside Dubai Creek",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Al Fahidi Historical Neighbourhood at Bur Dubai beside Dubai Creek, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Al Shindagha Museum",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Al Shindagha Historic District, Dubai Creek",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Al Shindagha Museum at Al Shindagha Historic District, Dubai Creek, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Museum of Illusions Dubai",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Al Seef, Dubai Creek",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Museum of Illusions Dubai at Al Seef, Dubai Creek, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Dubai Creek Abra Experience",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Bur Dubai and Deira abra stations",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Dubai Creek Abra Experience at Bur Dubai and Deira abra stations, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Gold and Spice Souks",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Al Ras and Deira, north of Dubai Creek",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Gold and Spice Souks at Al Ras and Deira, north of Dubai Creek, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Adventure": [
+          {
+            "attraction_name": "Atlantis Aquaventure",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Atlantis The Palm, Crescent Road, Palm Jumeirah",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Atlantis Aquaventure at Atlantis The Palm, Crescent Road, Palm Jumeirah, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Luxury Desert Safari",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Dubai Desert Conservation Reserve",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Luxury Desert Safari at Dubai Desert Conservation Reserve, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Hatta Mountain Experience",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Hajar Mountains, Hatta exclave",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Hatta Mountain Experience at Hajar Mountains, Hatta exclave, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Nature": [
+          {
+            "attraction_name": "Dubai Marina Yacht Cruise",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Dubai Marina and Arabian Gulf coastline",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Dubai Marina Yacht Cruise at Dubai Marina and Arabian Gulf coastline, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Dubai Miracle Garden",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Al Barsha South 3, Dubailand",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Dubai Miracle Garden at Al Barsha South 3, Dubailand, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Ras Al Khor Wildlife Sanctuary",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Ras Al Khor wetlands beside Dubai Creek",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Ras Al Khor Wildlife Sanctuary at Ras Al Khor wetlands beside Dubai Creek, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Al Marmoom Desert Conservation Reserve",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Saihan and Al Qudra desert, Dubai",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Al Marmoom Desert Conservation Reserve at Saihan and Al Qudra desert, Dubai, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Wellness": [
+          {
+            "attraction_name": "AURA Skypool",
+            "thematic_category": "Wellness",
+            "ideal_timeframe_duration": "3–4 hours",
+            "bespoke_selling_point": "A reserved premium session turns the local wellness tradition into a restorative experience defined by privacy, atmosphere and considered service.",
+            "exact_location_context": "Palm Tower, Palm Jumeirah",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of AURA Skypool at Palm Tower, Palm Jumeirah, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining wellness character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Culinary": [
+          {
+            "attraction_name": "Michelin Dining Experience",
+            "thematic_category": "Culinary",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "Reserved tastings and specialist storytelling provide an intimate introduction to regional craftsmanship, provenance and flavour.",
+            "exact_location_context": "Downtown Dubai, DIFC and Jumeirah dining districts",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Michelin Dining Experience at Downtown Dubai, DIFC and Jumeirah dining districts, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining culinary character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ]
+      }
+    },
+    {
+      "destination": "United Kingdom",
+      "attraction_count": 20,
+      "verification_source": "https://www.visitbritain.com/en",
+      "categories": {
+        "Cultural": [
+          {
+            "attraction_name": "Tower of London",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Tower Hill, London, England",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Tower of London at Tower Hill, London, England, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "British Museum",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Bloomsbury, London, England",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of British Museum at Bloomsbury, London, England, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Stonehenge",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Salisbury Plain, Wiltshire, England",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Stonehenge at Salisbury Plain, Wiltshire, England, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Roman Baths",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Abbey Churchyard, Bath, England",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Roman Baths at Abbey Churchyard, Bath, England, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Edinburgh Castle",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Castle Rock, Edinburgh, Scotland",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Edinburgh Castle at Castle Rock, Edinburgh, Scotland, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Royal Mile",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Old Town, Edinburgh, Scotland",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Royal Mile at Old Town, Edinburgh, Scotland, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Cardiff Castle",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Castle Street, Cardiff, Wales",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Cardiff Castle at Castle Street, Cardiff, Wales, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Architecture": [
+          {
+            "attraction_name": "Buckingham Palace",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Westminster, London, England",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Buckingham Palace at Westminster, London, England, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Windsor Castle",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Windsor, Berkshire, England",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Windsor Castle at Windsor, Berkshire, England, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Oxford University Quarter",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Radcliffe Square and Broad Street, Oxford, England",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Oxford University Quarter at Radcliffe Square and Broad Street, Oxford, England, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "York Minster",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Deangate, York, England",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of York Minster at Deangate, York, England, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Eilean Donan Castle",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Dornie, Kyle of Lochalsh, Scotland",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Eilean Donan Castle at Dornie, Kyle of Lochalsh, Scotland, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Cotswolds Villages",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Gloucestershire and Oxfordshire, England",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Cotswolds Villages at Gloucestershire and Oxfordshire, England, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Nature": [
+          {
+            "attraction_name": "Lake District National Park",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Cumbria, England",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Lake District National Park at Cumbria, England, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Giant's Causeway",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Causeway Coast, County Antrim, Northern Ireland",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Giant's Causeway at Causeway Coast, County Antrim, Northern Ireland, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Isle of Skye",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Inner Hebrides, Scotland",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Isle of Skye at Inner Hebrides, Scotland, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Loch Ness and Urquhart Castle",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Great Glen, Scottish Highlands",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Loch Ness and Urquhart Castle at Great Glen, Scottish Highlands, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Pembrokeshire Coast National Park",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Southwest Wales",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Pembrokeshire Coast National Park at Southwest Wales, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Adventure": [
+          {
+            "attraction_name": "Snowdonia Eryri National Park",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Northwest Wales",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Snowdonia Eryri National Park at Northwest Wales, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Culinary": [
+          {
+            "attraction_name": "Scottish Whisky Experience",
+            "thematic_category": "Culinary",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "Reserved tastings and specialist storytelling provide an intimate introduction to regional craftsmanship, provenance and flavour.",
+            "exact_location_context": "Royal Mile and premium Highland distilleries, Scotland",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Scottish Whisky Experience at Royal Mile and premium Highland distilleries, Scotland, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining culinary character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ]
+      }
+    },
+    {
+      "destination": "Qatar",
+      "attraction_count": 20,
+      "verification_source": "https://visitqatar.com/intl-en",
+      "categories": {
+        "Cultural": [
+          {
+            "attraction_name": "Museum of Islamic Art",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Doha Corniche, Al Corniche",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Museum of Islamic Art at Doha Corniche, Al Corniche, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Souq Waqif",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Al Souq district, central Doha",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Souq Waqif at Al Souq district, central Doha, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Katara Cultural Village",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "West Bay Lagoon, Doha",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Katara Cultural Village at West Bay Lagoon, Doha, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Msheireb Museums",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Msheireb Downtown Doha",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Msheireb Museums at Msheireb Downtown Doha, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Mathaf Arab Museum of Modern Art",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Education City, Al Rayyan",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Mathaf Arab Museum of Modern Art at Education City, Al Rayyan, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Al Zubarah Archaeological Site",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Northwestern Qatar",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Al Zubarah Archaeological Site at Northwestern Qatar, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Richard Serra East-West West-East",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Brouq Nature Reserve, Zekreet Peninsula",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Richard Serra East-West West-East at Brouq Nature Reserve, Zekreet Peninsula, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Al Shaqab Equestrian Centre",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Education City, Al Rayyan",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Al Shaqab Equestrian Centre at Education City, Al Rayyan, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "3-2-1 Qatar Olympic and Sports Museum",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Khalifa International Stadium, Aspire Zone",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of 3-2-1 Qatar Olympic and Sports Museum at Khalifa International Stadium, Aspire Zone, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Architecture": [
+          {
+            "attraction_name": "National Museum of Qatar",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Museum Park Street, Doha",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of National Museum of Qatar at Museum Park Street, Doha, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "The Pearl-Qatar",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Man-made island north of West Bay, Doha",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of The Pearl-Qatar at Man-made island north of West Bay, Doha, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Mina District",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Old Doha Port",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Mina District at Old Doha Port, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Qatar National Library",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Education City, Al Rayyan",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Qatar National Library at Education City, Al Rayyan, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Education City Mosque",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Education City, Al Rayyan",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Education City Mosque at Education City, Al Rayyan, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Place Vendôme",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Lusail Entertainment City",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Place Vendôme at Lusail Entertainment City, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Nature": [
+          {
+            "attraction_name": "Doha Corniche",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Doha Bay waterfront",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Doha Corniche at Doha Bay waterfront, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Inland Sea Khor Al Adaid",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Southern Qatar near the Saudi border",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Inland Sea Khor Al Adaid at Southern Qatar near the Saudi border, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Al Thakira Mangroves",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Al Thakira, north of Al Khor",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Al Thakira Mangroves at Al Thakira, north of Al Khor, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Adventure": [
+          {
+            "attraction_name": "Private Desert Safari",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Mesaieed dunes and Khor Al Adaid",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Private Desert Safari at Mesaieed dunes and Khor Al Adaid, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Culinary": [
+          {
+            "attraction_name": "Qatari Culinary Experience",
+            "thematic_category": "Culinary",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "Reserved tastings and specialist storytelling provide an intimate introduction to regional craftsmanship, provenance and flavour.",
+            "exact_location_context": "Souq Waqif and Msheireb, Doha",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Qatari Culinary Experience at Souq Waqif and Msheireb, Doha, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining culinary character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ]
+      }
+    },
+    {
+      "destination": "Oman",
+      "attraction_count": 20,
+      "verification_source": "https://experienceoman.om/",
+      "categories": {
+        "Architecture": [
+          {
+            "attraction_name": "Sultan Qaboos Grand Mosque",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Sultan Qaboos Street, Bawshar, Muscat",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Sultan Qaboos Grand Mosque at Sultan Qaboos Street, Bawshar, Muscat, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Royal Opera House Muscat",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Shati Al Qurum, Muscat",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Royal Opera House Muscat at Shati Al Qurum, Muscat, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Al Alam Palace",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Old Muscat harbour",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Al Alam Palace at Old Muscat harbour, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Bahla Fort",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Bahla oasis, Al Dakhiliyah",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Bahla Fort at Bahla oasis, Al Dakhiliyah, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Jabreen Castle",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Jabreen near Bahla, Al Dakhiliyah",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Jabreen Castle at Jabreen near Bahla, Al Dakhiliyah, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Cultural": [
+          {
+            "attraction_name": "Muttrah Souq",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Muttrah Corniche, Muscat",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Muttrah Souq at Muttrah Corniche, Muscat, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "The National Museum",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Al Alam Palace precinct, Old Muscat",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of The National Museum at Al Alam Palace precinct, Old Muscat, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Nizwa Fort",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Nizwa historic centre, Al Dakhiliyah",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Nizwa Fort at Nizwa historic centre, Al Dakhiliyah, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Land of Frankincense Museum",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Al Baleed Archaeological Park, Salalah",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Land of Frankincense Museum at Al Baleed Archaeological Park, Salalah, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Adventure": [
+          {
+            "attraction_name": "Daymaniyat Islands Nature Reserve",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Arabian Sea off Barka and Seeb",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Daymaniyat Islands Nature Reserve at Arabian Sea off Barka and Seeb, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Jebel Shams",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Western Al Hajar Mountains, Al Dakhiliyah",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Jebel Shams at Western Al Hajar Mountains, Al Dakhiliyah, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Wadi Shab",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Tiwi, Ash Sharqiyah South",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Wadi Shab at Tiwi, Ash Sharqiyah South, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Sharqiyah Sands",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Desert between Bidiyah and Mahout",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Sharqiyah Sands at Desert between Bidiyah and Mahout, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Nature": [
+          {
+            "attraction_name": "Jebel Akhdar",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Al Hajar Mountains, Al Dakhiliyah",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Jebel Akhdar at Al Hajar Mountains, Al Dakhiliyah, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Wadi Bani Khalid",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Al Kamil Wal Wafi, Ash Sharqiyah North",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Wadi Bani Khalid at Al Kamil Wal Wafi, Ash Sharqiyah North, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Ras Al Jinz Turtle Reserve",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Ras Al Jinz, Ash Sharqiyah South",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Ras Al Jinz Turtle Reserve at Ras Al Jinz, Ash Sharqiyah South, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Musandam Fjords",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Khasab, Musandam Governorate",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Musandam Fjords at Khasab, Musandam Governorate, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Al Mughsail Beach",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "West of Salalah, Dhofar",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Al Mughsail Beach at West of Salalah, Dhofar, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Wadi Darbat",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Taqah, Dhofar",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Wadi Darbat at Taqah, Dhofar, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Culinary": [
+          {
+            "attraction_name": "Omani Culinary Experience",
+            "thematic_category": "Culinary",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "Reserved tastings and specialist storytelling provide an intimate introduction to regional craftsmanship, provenance and flavour.",
+            "exact_location_context": "Muttrah, Nizwa and Muscat",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Omani Culinary Experience at Muttrah, Nizwa and Muscat, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining culinary character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ]
+      }
+    },
+    {
+      "destination": "Baku",
+      "attraction_count": 20,
+      "verification_source": "https://azerbaijan.travel/trip-to-baku",
+      "categories": {
+        "Cultural": [
+          {
+            "attraction_name": "Icherisheher Old City",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Walled historic centre, Sabail District, Baku",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Icherisheher Old City at Walled historic centre, Sabail District, Baku, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Azerbaijan Carpet Museum",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Mikayil Useynov Avenue, Baku Boulevard",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Azerbaijan Carpet Museum at Mikayil Useynov Avenue, Baku Boulevard, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "National Museum of History of Azerbaijan",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Haji Zeynalabdin Taghiyev Street, central Baku",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of National Museum of History of Azerbaijan at Haji Zeynalabdin Taghiyev Street, central Baku, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "National Art Museum of Azerbaijan",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Niyazi Street, Sabail District",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of National Art Museum of Azerbaijan at Niyazi Street, Sabail District, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Martyrs' Lane",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Highland Park, Sabail District",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Martyrs' Lane at Highland Park, Sabail District, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Ateshgah Fire Temple",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Surakhani District, Baku",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Ateshgah Fire Temple at Surakhani District, Baku, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Gobustan Rock Art Cultural Landscape",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Gobustan settlement southwest of Baku",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Gobustan Rock Art Cultural Landscape at Gobustan settlement southwest of Baku, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Nizami Street",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage into sharper focus, with privileged context and an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Central Baku from Fountains Square",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Nizami Street at Central Baku from Fountains Square, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Architecture": [
+          {
+            "attraction_name": "Maiden Tower",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Icherisheher, Baku",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Maiden Tower at Icherisheher, Baku, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Palace of the Shirvanshahs",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Icherisheher, Baku",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Palace of the Shirvanshahs at Icherisheher, Baku, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Flame Towers",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Mehdi Huseyn Street, Sabail District",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Flame Towers at Mehdi Huseyn Street, Sabail District, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Heydar Aliyev Center",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Heydar Aliyev Avenue, Baku",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Heydar Aliyev Center at Heydar Aliyev Avenue, Baku, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Bibi-Heybat Mosque",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Bibi-Heybat, southern Baku",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Bibi-Heybat Mosque at Bibi-Heybat, southern Baku, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Oil-Boom Architecture Walk",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals exceptional design, craftsmanship and the finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Nizami Street and central Sabail, Baku",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Oil-Boom Architecture Walk at Nizami Street and central Sabail, Baku, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Nature": [
+          {
+            "attraction_name": "Baku Boulevard",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Caspian waterfront, central Baku",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Baku Boulevard at Caspian waterfront, central Baku, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Highland Park",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Upland above Baku Bay, Sabail District",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Highland Park at Upland above Baku Bay, Sabail District, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Yanar Dag",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Mammadli village, Absheron Peninsula",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Yanar Dag at Mammadli village, Absheron Peninsula, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Adventure": [
+          {
+            "attraction_name": "Gobustan Mud Volcanoes",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Gobustan mud-volcano field southwest of Baku",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Gobustan Mud Volcanoes at Gobustan mud-volcano field southwest of Baku, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Caspian Yacht Experience",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Baku Bay and Caspian waterfront",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Caspian Yacht Experience at Baku Bay and Caspian waterfront, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Culinary": [
+          {
+            "attraction_name": "Taza Bazaar Culinary Tour",
+            "thematic_category": "Culinary",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "Reserved tastings and specialist storytelling provide an intimate introduction to regional craftsmanship, provenance and flavour.",
+            "exact_location_context": "Samad Vurgun Street, Nasimi District",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Taza Bazaar Culinary Tour at Samad Vurgun Street, Nasimi District, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining culinary character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ]
+      }
+    }
+  ]
+}

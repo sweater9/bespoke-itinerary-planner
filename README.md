@@ -1,53 +1,40 @@
-# Global Holidayz Itinerary Planner
+# Global Holidayz Premium Attraction Library
 
-A standalone, browser-based itinerary builder for creating branded client
-quotes in AED or USD.
+A GitHub Pages-ready attraction browser built with vanilla HTML, CSS and JavaScript.
 
-## Features
+## Included
 
-- Multi-destination itinerary planning
-- Hotels, activities, flights, transfers, car rentals and documents
-- Morning, afternoon, evening, full-day and overnight scheduling
-- Automatic subtotal, markup, tax and grand-total calculations
-- AED and USD display
-- Drag-and-drop itinerary ordering
-- Local client-session saving
-- JSON backup and restore
-- Print-friendly itinerary and PDF export
+- 12 regional JSON databases
+- 65 destination entries
+- 1,300 premium attraction records
+- Region and destination selection
+- Category filtering, keyword search and full reset
+- Responsive interface
+- No framework, package manager, API key or build step
 
 ## Run locally
 
-No installation or build process is required.
+The site uses `fetch()`, so serve it over HTTP:
 
-1. Download or clone this repository.
-2. Open `index.html` in a modern browser.
+```bash
+python3 -m http.server 8080
+```
 
-The application uses browser `localStorage`, so saved sessions remain on the
-same browser and device. Use **Backup DB** to create a portable JSON backup.
+Then open `http://localhost:8080`.
 
-## Deploy with GitHub Pages
+## Upload to GitHub
 
-1. Create a new GitHub repository.
-2. Upload all files from this package to the repository root.
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**.
-5. Select the `main` branch and `/ (root)` folder, then save.
+1. Extract the ZIP file.
+2. Create a GitHub repository.
+3. Upload everything inside the extracted folder to the repository root.
+4. Commit the files.
+5. Open **Settings → Pages**.
+6. Select **Deploy from a branch**, `main`, and `/ (root)`.
 
-GitHub will provide the public website address after deployment.
+## Add another regional database
 
-## Technical notes
+1. Put the JSON file in `data/destinations/`.
+2. Add its display name and filename to `data/regions.json`.
+3. Keep the same nested structure: `destinations → categories → attractions`.
 
-The application is a static single-page site. It uses CDN-hosted Tailwind CSS,
-Lucide icons and SortableJS, so an internet connection is required for styling,
-icons and drag-and-drop functionality.
-
-## Customisation
-
-Edit the following defaults inside `index.html`:
-
-- Agency name: `Global Holidayz`
-- Default currency: `AED`
-- AED/USD conversion rate
-- Markup and tax percentages
-- Initial itinerary services and descriptions
-
+The interface discovers destinations and categories automatically.

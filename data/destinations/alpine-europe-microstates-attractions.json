@@ -1,0 +1,717 @@
+{
+  "database_name": "Global Holidayz Premium Attractions",
+  "region": "Alpine Europe and Microstates",
+  "version": "1.0.0",
+  "generated_on": "2026-07-27",
+  "record_count": 80,
+  "destinations": [
+    {
+      "destination": "Switzerland",
+      "attraction_count": 20,
+      "verification_source": "https://www.myswitzerland.com/en/destinations/attractions/top-attractions/",
+      "categories": {
+        "Adventure": [
+          {
+            "attraction_name": "Jungfraujoch – Top of Europe",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers turn this dramatic experience into a seamless day combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Jungfrau railway terminus above Grindelwald and Lauterbrunnen, Bernese Oberland",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Jungfraujoch – Top of Europe at Jungfrau railway terminus above Grindelwald and Lauterbrunnen, Bernese Oberland, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Mount Pilatus",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers turn this dramatic experience into a seamless day combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Pilatus massif above Lucerne and Alpnachstad",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Mount Pilatus at Pilatus massif above Lucerne and Alpnachstad, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Titlis Cliff Walk",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers turn this dramatic experience into a seamless day combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Klein Titlis summit above Engelberg, Obwalden",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Titlis Cliff Walk at Klein Titlis summit above Engelberg, Obwalden, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Glacier Express",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers turn this dramatic experience into a seamless day combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Rail corridor between Zermatt and St Moritz through the Swiss Alps",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Glacier Express at Rail corridor between Zermatt and St Moritz through the Swiss Alps, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Nature": [
+          {
+            "attraction_name": "Matterhorn and Gornergrat",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light, atmosphere and photographic perspectives.",
+            "exact_location_context": "Gornergrat ridge above Zermatt, Valais",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Matterhorn and Gornergrat at Gornergrat ridge above Zermatt, Valais, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Rhine Falls",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light, atmosphere and photographic perspectives.",
+            "exact_location_context": "Neuhausen am Rheinfall and Laufen-Uhwiesen, near Schaffhausen",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Rhine Falls at Neuhausen am Rheinfall and Laufen-Uhwiesen, near Schaffhausen, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Aletsch Glacier",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light, atmosphere and photographic perspectives.",
+            "exact_location_context": "Aletsch Arena viewpoints around Riederalp and Bettmeralp, Valais",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Aletsch Glacier at Aletsch Arena viewpoints around Riederalp and Bettmeralp, Valais, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Mount Rigi",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light, atmosphere and photographic perspectives.",
+            "exact_location_context": "Rigi massif between Lake Lucerne and Lake Zug",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Mount Rigi at Rigi massif between Lake Lucerne and Lake Zug, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Swiss National Park",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light, atmosphere and photographic perspectives.",
+            "exact_location_context": "Lower Engadin around Zernez, Graubünden",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Swiss National Park at Lower Engadin around Zernez, Graubünden, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Creux du Van",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light, atmosphere and photographic perspectives.",
+            "exact_location_context": "Val de Travers above Lake Neuchâtel, canton of Neuchâtel",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Creux du Van at Val de Travers above Lake Neuchâtel, canton of Neuchâtel, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Cultural": [
+          {
+            "attraction_name": "Château de Chillon",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage and collections into sharper focus, with an unhurried pace suited to discerning travellers.",
+            "exact_location_context": "Lake Geneva shore at Veytaux, near Montreux, Vaud",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Château de Chillon at Lake Geneva shore at Veytaux, near Montreux, Vaud, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Fondation Beyeler",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage and collections into sharper focus, with an unhurried pace suited to discerning travellers.",
+            "exact_location_context": "Baselstrasse, Riehen, canton of Basel-Stadt",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Fondation Beyeler at Baselstrasse, Riehen, canton of Basel-Stadt, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Kunsthaus Zürich",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage and collections into sharper focus, with an unhurried pace suited to discerning travellers.",
+            "exact_location_context": "Heimplatz, Hochschulen quarter, Zürich",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Kunsthaus Zürich at Heimplatz, Hochschulen quarter, Zürich, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Culinary": [
+          {
+            "attraction_name": "Lavaux Vineyard Terraces",
+            "thematic_category": "Culinary",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "Reserved tastings and specialist storytelling offer an intimate introduction to regional craftsmanship, provenance and flavour.",
+            "exact_location_context": "Lake Geneva slopes between Lausanne and Montreux, Vaud",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Lavaux Vineyard Terraces at Lake Geneva slopes between Lausanne and Montreux, Vaud, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining culinary character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Lindt Home of Chocolate",
+            "thematic_category": "Culinary",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "Reserved tastings and specialist storytelling offer an intimate introduction to regional craftsmanship, provenance and flavour.",
+            "exact_location_context": "Schokoladenplatz, Kilchberg, Lake Zürich",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Lindt Home of Chocolate at Schokoladenplatz, Kilchberg, Lake Zürich, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining culinary character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Maison Cailler",
+            "thematic_category": "Culinary",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "Reserved tastings and specialist storytelling offer an intimate introduction to regional craftsmanship, provenance and flavour.",
+            "exact_location_context": "Rue Jules Bellet, Broc, canton of Fribourg",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Maison Cailler at Rue Jules Bellet, Broc, canton of Fribourg, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining culinary character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Architecture": [
+          {
+            "attraction_name": "Old City of Bern",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and most elegant viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "UNESCO-listed centre inside the Aare loop, Bern",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Old City of Bern at UNESCO-listed centre inside the Aare loop, Bern, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Zytglogge",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and most elegant viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Kramgasse, Old City of Bern",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Zytglogge at Kramgasse, Old City of Bern, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Lake Lucerne and Chapel Bridge",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and most elegant viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Reuss riverfront and Lake Lucerne, central Lucerne",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Lake Lucerne and Chapel Bridge at Reuss riverfront and Lake Lucerne, central Lucerne, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Jet d’Eau and Lake Geneva",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and most elegant viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Quai Gustave-Ador and Rade waterfront, Geneva",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Jet d’Eau and Lake Geneva at Quai Gustave-Ador and Rade waterfront, Geneva, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ]
+      }
+    },
+    {
+      "destination": "Austria",
+      "attraction_count": 20,
+      "verification_source": "https://www.austria.info/en-gb/inspiration/sights-in-austria/",
+      "categories": {
+        "Cultural": [
+          {
+            "attraction_name": "Schönbrunn Palace",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage and collections into sharper focus, with an unhurried pace suited to discerning travellers.",
+            "exact_location_context": "Schönbrunner Schloßstraße, Hietzing, Vienna",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Schönbrunn Palace at Schönbrunner Schloßstraße, Hietzing, Vienna, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Vienna State Opera",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage and collections into sharper focus, with an unhurried pace suited to discerning travellers.",
+            "exact_location_context": "Opernring, Innere Stadt, Vienna",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Vienna State Opera at Opernring, Innere Stadt, Vienna, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Kunsthistorisches Museum Vienna",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage and collections into sharper focus, with an unhurried pace suited to discerning travellers.",
+            "exact_location_context": "Maria-Theresien-Platz, Innere Stadt, Vienna",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Kunsthistorisches Museum Vienna at Maria-Theresien-Platz, Innere Stadt, Vienna, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Belvedere Palace",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage and collections into sharper focus, with an unhurried pace suited to discerning travellers.",
+            "exact_location_context": "Prinz-Eugen-Straße, Landstraße, Vienna",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Belvedere Palace at Prinz-Eugen-Straße, Landstraße, Vienna, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Spanish Riding School",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage and collections into sharper focus, with an unhurried pace suited to discerning travellers.",
+            "exact_location_context": "Michaelerplatz, Hofburg complex, Vienna",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Spanish Riding School at Michaelerplatz, Hofburg complex, Vienna, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Hofburg Palace",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage and collections into sharper focus, with an unhurried pace suited to discerning travellers.",
+            "exact_location_context": "Heldenplatz and Michaelerkuppel, Innere Stadt, Vienna",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Hofburg Palace at Heldenplatz and Michaelerkuppel, Innere Stadt, Vienna, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Hohensalzburg Fortress",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage and collections into sharper focus, with an unhurried pace suited to discerning travellers.",
+            "exact_location_context": "Festungsberg above Salzburg Altstadt",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Hohensalzburg Fortress at Festungsberg above Salzburg Altstadt, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Mozart’s Birthplace",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage and collections into sharper focus, with an unhurried pace suited to discerning travellers.",
+            "exact_location_context": "Getreidegasse, Salzburg Altstadt",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Mozart’s Birthplace at Getreidegasse, Salzburg Altstadt, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Hallstatt Historic Village",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage and collections into sharper focus, with an unhurried pace suited to discerning travellers.",
+            "exact_location_context": "Lake Hallstatt waterfront, Salzkammergut, Upper Austria",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Hallstatt Historic Village at Lake Hallstatt waterfront, Salzkammergut, Upper Austria, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Melk Abbey",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage and collections into sharper focus, with an unhurried pace suited to discerning travellers.",
+            "exact_location_context": "Abt-Berthold-Dietmayr-Straße, Melk, Lower Austria",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Melk Abbey at Abt-Berthold-Dietmayr-Straße, Melk, Lower Austria, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Swarovski Crystal Worlds",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage and collections into sharper focus, with an unhurried pace suited to discerning travellers.",
+            "exact_location_context": "Kristallweltenstraße, Wattens, Tyrol",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Swarovski Crystal Worlds at Kristallweltenstraße, Wattens, Tyrol, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Architecture": [
+          {
+            "attraction_name": "St Stephen’s Cathedral",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and most elegant viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Stephansplatz, Innere Stadt, Vienna",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of St Stephen’s Cathedral at Stephansplatz, Innere Stadt, Vienna, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Historic Centre of Salzburg",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and most elegant viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Altstadt on both banks of the Salzach, Salzburg",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Historic Centre of Salzburg at Altstadt on both banks of the Salzach, Salzburg, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Hellbrunn Palace and Trick Fountains",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and most elegant viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Fürstenweg, southern Salzburg",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Hellbrunn Palace and Trick Fountains at Fürstenweg, southern Salzburg, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Graz Old Town and Schlossberg",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and most elegant viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Historic centre and Schlossberg hill, Graz, Styria",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Graz Old Town and Schlossberg at Historic centre and Schlossberg hill, Graz, Styria, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Adventure": [
+          {
+            "attraction_name": "Salzwelten Hallstatt",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers turn this dramatic experience into a seamless day combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Salzberg mountain above Hallstatt, Upper Austria",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Salzwelten Hallstatt at Salzberg mountain above Hallstatt, Upper Austria, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Grossglockner High Alpine Road",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers turn this dramatic experience into a seamless day combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Hohe Tauern between Fusch and Heiligenblut",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Grossglockner High Alpine Road at Hohe Tauern between Fusch and Heiligenblut, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Nordkette",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers turn this dramatic experience into a seamless day combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Mountain range directly above Innsbruck, Tyrol",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Nordkette at Mountain range directly above Innsbruck, Tyrol, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Culinary": [
+          {
+            "attraction_name": "Wachau Cultural Landscape",
+            "thematic_category": "Culinary",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "Reserved tastings and specialist storytelling offer an intimate introduction to regional craftsmanship, provenance and flavour.",
+            "exact_location_context": "Danube Valley between Melk and Krems, Lower Austria",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Wachau Cultural Landscape at Danube Valley between Melk and Krems, Lower Austria, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining culinary character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Nature": [
+          {
+            "attraction_name": "Krimml Waterfalls",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light, atmosphere and photographic perspectives.",
+            "exact_location_context": "Krimml, Hohe Tauern National Park, Salzburg state",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Krimml Waterfalls at Krimml, Hohe Tauern National Park, Salzburg state, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ]
+      }
+    },
+    {
+      "destination": "Luxembourg",
+      "attraction_count": 20,
+      "verification_source": "https://www.visitluxembourg.com/",
+      "categories": {
+        "Architecture": [
+          {
+            "attraction_name": "Old Quarters and Fortifications of Luxembourg City",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and most elegant viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Ville Haute and fortified old town, Luxembourg City",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Old Quarters and Fortifications of Luxembourg City at Ville Haute and fortified old town, Luxembourg City, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Chemin de la Corniche",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and most elegant viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Old town ramparts overlooking the Alzette and Grund, Luxembourg City",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Chemin de la Corniche at Old town ramparts overlooking the Alzette and Grund, Luxembourg City, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Grand Ducal Palace",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and most elegant viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Rue du Marché-aux-Herbes, Ville Haute, Luxembourg City",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Grand Ducal Palace at Rue du Marché-aux-Herbes, Ville Haute, Luxembourg City, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Notre-Dame Cathedral",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and most elegant viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Rue Notre Dame, Ville Haute, Luxembourg City",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Notre-Dame Cathedral at Rue Notre Dame, Ville Haute, Luxembourg City, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Grund District",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and most elegant viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Alzette valley below Ville Haute, Luxembourg City",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Grund District at Alzette valley below Ville Haute, Luxembourg City, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Pfaffenthal Panoramic Elevator",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and most elegant viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Pescatore Park to Pfaffenthal valley, Luxembourg City",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Pfaffenthal Panoramic Elevator at Pescatore Park to Pfaffenthal valley, Luxembourg City, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Cultural": [
+          {
+            "attraction_name": "Bock Casemates",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage and collections into sharper focus, with an unhurried pace suited to discerning travellers.",
+            "exact_location_context": "Montée de Clausen, Bock promontory, Luxembourg City",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Bock Casemates at Montée de Clausen, Bock promontory, Luxembourg City, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Nationalmusée um Fëschmaart",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage and collections into sharper focus, with an unhurried pace suited to discerning travellers.",
+            "exact_location_context": "Marché-aux-Poissons, old town, Luxembourg City",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Nationalmusée um Fëschmaart at Marché-aux-Poissons, old town, Luxembourg City, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Mudam Luxembourg",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage and collections into sharper focus, with an unhurried pace suited to discerning travellers.",
+            "exact_location_context": "Park Dräi Eechelen, Kirchberg, Luxembourg City",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Mudam Luxembourg at Park Dräi Eechelen, Kirchberg, Luxembourg City, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Fort Thüngen",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage and collections into sharper focus, with an unhurried pace suited to discerning travellers.",
+            "exact_location_context": "Park Dräi Eechelen, Kirchberg, Luxembourg City",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Fort Thüngen at Park Dräi Eechelen, Kirchberg, Luxembourg City, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Vianden Castle",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage and collections into sharper focus, with an unhurried pace suited to discerning travellers.",
+            "exact_location_context": "Castle hill above Vianden, Éislek region",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Vianden Castle at Castle hill above Vianden, Éislek region, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Victor Hugo House",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage and collections into sharper focus, with an unhurried pace suited to discerning travellers.",
+            "exact_location_context": "Rue de la Gare, Our riverfront, Vianden",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Victor Hugo House at Rue de la Gare, Our riverfront, Vianden, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Echternach Abbey and Basilica",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage and collections into sharper focus, with an unhurried pace suited to discerning travellers.",
+            "exact_location_context": "Place du Marché and abbey quarter, Echternach",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Echternach Abbey and Basilica at Place du Marché and abbey quarter, Echternach, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Esch-sur-Sûre Castle Ruins",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage and collections into sharper focus, with an unhurried pace suited to discerning travellers.",
+            "exact_location_context": "Rocky meander above Esch-sur-Sûre, Éislek",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Esch-sur-Sûre Castle Ruins at Rocky meander above Esch-sur-Sûre, Éislek, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Clervaux Castle",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage and collections into sharper focus, with an unhurried pace suited to discerning travellers.",
+            "exact_location_context": "Montée du Château, central Clervaux",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Clervaux Castle at Montée du Château, central Clervaux, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "The Family of Man",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage and collections into sharper focus, with an unhurried pace suited to discerning travellers.",
+            "exact_location_context": "Clervaux Castle, Clervaux, Éislek",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of The Family of Man at Clervaux Castle, Clervaux, Éislek, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Adventure": [
+          {
+            "attraction_name": "Mullerthal Trail",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers turn this dramatic experience into a seamless day combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Mullerthal–Little Switzerland region, eastern Luxembourg",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Mullerthal Trail at Mullerthal–Little Switzerland region, eastern Luxembourg, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Nature": [
+          {
+            "attraction_name": "Schiessentümpel Waterfall",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light, atmosphere and photographic perspectives.",
+            "exact_location_context": "Black Ernz valley near Müllerthal village",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Schiessentümpel Waterfall at Black Ernz valley near Müllerthal village, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Upper Sûre Lake",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light, atmosphere and photographic perspectives.",
+            "exact_location_context": "Naturpark Öewersauer around Esch-sur-Sûre",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Upper Sûre Lake at Naturpark Öewersauer around Esch-sur-Sûre, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Culinary": [
+          {
+            "attraction_name": "Moselle Wine Route",
+            "thematic_category": "Culinary",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "Reserved tastings and specialist storytelling offer an intimate introduction to regional craftsmanship, provenance and flavour.",
+            "exact_location_context": "Moselle river villages between Schengen and Wasserbillig",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Moselle Wine Route at Moselle river villages between Schengen and Wasserbillig, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining culinary character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ]
+      }
+    },
+    {
+      "destination": "Monaco",
+      "attraction_count": 20,
+      "verification_source": "https://www.visitmonaco.com/en/explore/the-12-must-sees-in-monaco",
+      "categories": {
+        "Architecture": [
+          {
+            "attraction_name": "Casino de Monte-Carlo",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and most elegant viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Place du Casino, Monte-Carlo",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Casino de Monte-Carlo at Place du Casino, Monte-Carlo, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Hôtel de Paris Monte-Carlo",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and most elegant viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Place du Casino, Monte-Carlo",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Hôtel de Paris Monte-Carlo at Place du Casino, Monte-Carlo, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Monaco Cathedral",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and most elegant viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Rue Colonel Bellando de Castro, Monaco-Ville",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Monaco Cathedral at Rue Colonel Bellando de Castro, Monaco-Ville, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Old Town of Monaco-Ville",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and most elegant viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Le Rocher peninsula, Monaco-Ville",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Old Town of Monaco-Ville at Le Rocher peninsula, Monaco-Ville, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Port Hercule",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and most elegant viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "La Condamine harbour, central Monaco",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Port Hercule at La Condamine harbour, central Monaco, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Grimaldi Forum Monaco",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and most elegant viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Avenue Princesse Grace, Larvotto",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Grimaldi Forum Monaco at Avenue Princesse Grace, Larvotto, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Fort Antoine Theatre",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and most elegant viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Avenue de la Quarantaine, Monaco-Ville",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Fort Antoine Theatre at Avenue de la Quarantaine, Monaco-Ville, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Cultural": [
+          {
+            "attraction_name": "Opéra de Monte-Carlo",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage and collections into sharper focus, with an unhurried pace suited to discerning travellers.",
+            "exact_location_context": "Salle Garnier, Place du Casino, Monte-Carlo",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Opéra de Monte-Carlo at Salle Garnier, Place du Casino, Monte-Carlo, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Oceanographic Museum of Monaco",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage and collections into sharper focus, with an unhurried pace suited to discerning travellers.",
+            "exact_location_context": "Avenue Saint-Martin, Monaco-Ville",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Oceanographic Museum of Monaco at Avenue Saint-Martin, Monaco-Ville, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Prince’s Palace of Monaco",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage and collections into sharper focus, with an unhurried pace suited to discerning travellers.",
+            "exact_location_context": "Place du Palais, Le Rocher, Monaco-Ville",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Prince’s Palace of Monaco at Place du Palais, Le Rocher, Monaco-Ville, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "New National Museum of Monaco – Villa Sauber",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage and collections into sharper focus, with an unhurried pace suited to discerning travellers.",
+            "exact_location_context": "Avenue Princesse Grace, Larvotto",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of New National Museum of Monaco – Villa Sauber at Avenue Princesse Grace, Larvotto, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "New National Museum of Monaco – Villa Paloma",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage and collections into sharper focus, with an unhurried pace suited to discerning travellers.",
+            "exact_location_context": "Boulevard du Jardin Exotique, Monaco",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of New National Museum of Monaco – Villa Paloma at Boulevard du Jardin Exotique, Monaco, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Collection of Cars of HSH the Prince of Monaco",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the destination’s heritage and collections into sharper focus, with an unhurried pace suited to discerning travellers.",
+            "exact_location_context": "Route de la Piscine, Port Hercule",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Collection of Cars of HSH the Prince of Monaco at Route de la Piscine, Port Hercule, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Nature": [
+          {
+            "attraction_name": "Saint-Martin Gardens",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light, atmosphere and photographic perspectives.",
+            "exact_location_context": "Clifftop below the Oceanographic Museum, Monaco-Ville",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Saint-Martin Gardens at Clifftop below the Oceanographic Museum, Monaco-Ville, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Exotic Garden of Monaco",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light, atmosphere and photographic perspectives.",
+            "exact_location_context": "Boulevard du Jardin Exotique, Jardin Exotique district",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Exotic Garden of Monaco at Boulevard du Jardin Exotique, Jardin Exotique district, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Princess Grace Rose Garden",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light, atmosphere and photographic perspectives.",
+            "exact_location_context": "Fontvieille Park, Fontvieille",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Princess Grace Rose Garden at Fontvieille Park, Fontvieille, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Japanese Garden",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light, atmosphere and photographic perspectives.",
+            "exact_location_context": "Avenue Princesse Grace, Larvotto",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Japanese Garden at Avenue Princesse Grace, Larvotto, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Larvotto Beach",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light, atmosphere and photographic perspectives.",
+            "exact_location_context": "Avenue Princesse Grace waterfront, Larvotto",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Larvotto Beach at Avenue Princesse Grace waterfront, Larvotto, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Adventure": [
+          {
+            "attraction_name": "Monaco Top Cars Collection and Grand Prix Circuit",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers turn this dramatic experience into a seamless day combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Port Hercule and Monte-Carlo street circuit",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Monaco Top Cars Collection and Grand Prix Circuit at Port Hercule and Monte-Carlo street circuit, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Culinary": [
+          {
+            "attraction_name": "Place d’Armes Market",
+            "thematic_category": "Culinary",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "Reserved tastings and specialist storytelling offer an intimate introduction to regional craftsmanship, provenance and flavour.",
+            "exact_location_context": "Place d’Armes, La Condamine",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Place d’Armes Market at Place d’Armes, La Condamine, captured in luminous golden-hour light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining culinary character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ]
+      }
+    }
+  ]
+}

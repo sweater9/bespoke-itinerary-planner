@@ -1,0 +1,886 @@
+{
+  "database_name": "Global Holidayz Premium Attractions",
+  "region": "Southern Europe Part 1",
+  "version": "1.0.0",
+  "generated_on": "2026-07-27",
+  "record_count": 100,
+  "destinations": [
+    {
+      "destination": "Italy",
+      "attraction_count": 20,
+      "verification_source": "https://www.italia.it/en",
+      "categories": {
+        "Cultural": [
+          {
+            "attraction_name": "Colosseum and Roman Forum",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Piazza del Colosseo and Via dei Fori Imperiali, Rome, Lazio",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Colosseum and Roman Forum at Piazza del Colosseo and Via dei Fori Imperiali, Rome, Lazio, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Galleria Borghese",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Villa Borghese, Piazzale Scipione Borghese, Rome",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Galleria Borghese at Villa Borghese, Piazzale Scipione Borghese, Rome, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Uffizi Galleries",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Piazzale degli Uffizi, historic centre of Florence, Tuscany",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Uffizi Galleries at Piazzale degli Uffizi, historic centre of Florence, Tuscany, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Galleria dell’Accademia di Firenze",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Via Ricasoli, San Marco district, Florence",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Galleria dell’Accademia di Firenze at Via Ricasoli, San Marco district, Florence, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "The Last Supper",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Santa Maria delle Grazie, Piazza di Santa Maria delle Grazie, Milan",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of The Last Supper at Santa Maria delle Grazie, Piazza di Santa Maria delle Grazie, Milan, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Pompeii Archaeological Park",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Via Villa dei Misteri, Pompeii, Campania",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Pompeii Archaeological Park at Via Villa dei Misteri, Pompeii, Campania, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Valley of the Temples",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Contrada Valle dei Templi, Agrigento, Sicily",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Valley of the Temples at Contrada Valle dei Templi, Agrigento, Sicily, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Architecture": [
+          {
+            "attraction_name": "Pantheon",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Piazza della Rotonda, historic centre of Rome, Lazio",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Pantheon at Piazza della Rotonda, historic centre of Rome, Lazio, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Cathedral of Santa Maria del Fiore",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Piazza del Duomo, historic centre of Florence, Tuscany",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Cathedral of Santa Maria del Fiore at Piazza del Duomo, historic centre of Florence, Tuscany, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Piazza San Marco and Doge’s Palace",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Piazza San Marco, Venice, Veneto",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Piazza San Marco and Doge’s Palace at Piazza San Marco, Venice, Veneto, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Grand Canal of Venice",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Waterway through San Marco, San Polo and Dorsoduro, Venice",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Grand Canal of Venice at Waterway through San Marco, San Polo and Dorsoduro, Venice, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Duomo di Milano",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Piazza del Duomo, central Milan, Lombardy",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Duomo di Milano at Piazza del Duomo, central Milan, Lombardy, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Piazza del Campo",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Historic centre of Siena, Tuscany",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Piazza del Campo at Historic centre of Siena, Tuscany, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Alberobello Trulli",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Rione Monti and Aia Piccola, Alberobello, Puglia",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Alberobello Trulli at Rione Monti and Aia Piccola, Alberobello, Puglia, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Nature": [
+          {
+            "attraction_name": "Lake Como",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Central lake around Bellagio, Varenna and Tremezzina, Lombardy",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Lake Como at Central lake around Bellagio, Varenna and Tremezzina, Lombardy, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Cinque Terre National Park",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Coastal villages between Monterosso and Riomaggiore, Liguria",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Cinque Terre National Park at Coastal villages between Monterosso and Riomaggiore, Liguria, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Amalfi Coast",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Coastal road and villages between Positano and Vietri sul Mare, Campania",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Amalfi Coast at Coastal road and villages between Positano and Vietri sul Mare, Campania, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Capri and the Blue Grotto",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Island of Capri and Anacapri, Bay of Naples, Campania",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Capri and the Blue Grotto at Island of Capri and Anacapri, Bay of Naples, Campania, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Val d’Orcia",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Countryside between Pienza, Montalcino and San Quirico d’Orcia, Tuscany",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Val d’Orcia at Countryside between Pienza, Montalcino and San Quirico d’Orcia, Tuscany, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Adventure": [
+          {
+            "attraction_name": "Mount Etna",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Etna volcanic park above Catania and Taormina, Sicily",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Mount Etna at Etna volcanic park above Catania and Taormina, Sicily, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ]
+      }
+    },
+    {
+      "destination": "Spain",
+      "attraction_count": 20,
+      "verification_source": "https://www.spain.info/en/top/things-to-do-once-in-life-spain/",
+      "categories": {
+        "Architecture": [
+          {
+            "attraction_name": "Basílica de la Sagrada Família",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Carrer de Mallorca, Eixample, Barcelona, Catalonia",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Basílica de la Sagrada Família at Carrer de Mallorca, Eixample, Barcelona, Catalonia, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Park Güell",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Carrer d’Olot, Gràcia, Barcelona, Catalonia",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Park Güell at Carrer d’Olot, Gràcia, Barcelona, Catalonia, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Mezquita-Catedral de Córdoba",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Calle Cardenal Herrero, historic Córdoba, Andalusia",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Mezquita-Catedral de Córdoba at Calle Cardenal Herrero, historic Córdoba, Andalusia, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Seville Cathedral and La Giralda",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Avenida de la Constitución, Santa Cruz, Seville",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Seville Cathedral and La Giralda at Avenida de la Constitución, Santa Cruz, Seville, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "City of Arts and Sciences",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Avenida del Professor López Piñero, Valencia",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of City of Arts and Sciences at Avenida del Professor López Piñero, Valencia, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Segovia Aqueduct and Alcázar",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Plaza del Azoguejo and old city, Segovia, Castilla y León",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Segovia Aqueduct and Alcázar at Plaza del Azoguejo and old city, Segovia, Castilla y León, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Ronda and Puente Nuevo",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Tajo gorge, historic Ronda, Málaga, Andalusia",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Ronda and Puente Nuevo at Tajo gorge, historic Ronda, Málaga, Andalusia, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Cultural": [
+          {
+            "attraction_name": "Museo Nacional del Prado",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Paseo del Prado, Retiro, Madrid",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Museo Nacional del Prado at Paseo del Prado, Retiro, Madrid, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Royal Palace of Madrid",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Calle de Bailén, Madrid de los Austrias, Madrid",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Royal Palace of Madrid at Calle de Bailén, Madrid de los Austrias, Madrid, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Alhambra",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Sabika hill above central Granada, Andalusia",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Alhambra at Sabika hill above central Granada, Andalusia, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Real Alcázar of Seville",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Patio de Banderas, Santa Cruz, Seville, Andalusia",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Real Alcázar of Seville at Patio de Banderas, Santa Cruz, Seville, Andalusia, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Guggenheim Museum Bilbao",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Avenida Abandoibarra, Abando, Bilbao, Basque Country",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Guggenheim Museum Bilbao at Avenida Abandoibarra, Abando, Bilbao, Basque Country, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Toledo Historic City",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Walled old town above the Tagus, Toledo, Castilla-La Mancha",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Toledo Historic City at Walled old town above the Tagus, Toledo, Castilla-La Mancha, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Cathedral of Santiago de Compostela",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Praza do Obradoiro, Santiago de Compostela, Galicia",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Cathedral of Santiago de Compostela at Praza do Obradoiro, Santiago de Compostela, Galicia, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Roman Theatre of Mérida",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Plaza Margarita Xirgu, Mérida, Extremadura",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Roman Theatre of Mérida at Plaza Margarita Xirgu, Mérida, Extremadura, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Culinary": [
+          {
+            "attraction_name": "San Sebastián Old Town and La Concha",
+            "thematic_category": "Culinary",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "Reserved tastings and specialist storytelling provide an intimate introduction to regional craftsmanship, provenance and flavour.",
+            "exact_location_context": "Parte Vieja and La Concha Bay, San Sebastián, Basque Country",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of San Sebastián Old Town and La Concha at Parte Vieja and La Concha Bay, San Sebastián, Basque Country, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining culinary character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Adventure": [
+          {
+            "attraction_name": "Teide National Park",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Las Cañadas del Teide, Tenerife, Canary Islands",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Teide National Park at Las Cañadas del Teide, Tenerife, Canary Islands, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Nature": [
+          {
+            "attraction_name": "Timanfaya National Park",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Montañas del Fuego, Lanzarote, Canary Islands",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Timanfaya National Park at Montañas del Fuego, Lanzarote, Canary Islands, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Picos de Europa National Park",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Mountain region across Asturias, Cantabria and Castilla y León",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Picos de Europa National Park at Mountain region across Asturias, Cantabria and Castilla y León, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Doñana National Park",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Marshes between Huelva, Seville and Cádiz, Andalusia",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Doñana National Park at Marshes between Huelva, Seville and Cádiz, Andalusia, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ]
+      }
+    },
+    {
+      "destination": "Portugal",
+      "attraction_count": 20,
+      "verification_source": "https://www.visitportugal.com/en",
+      "categories": {
+        "Architecture": [
+          {
+            "attraction_name": "Jerónimos Monastery",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Praça do Império, Belém, Lisbon",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Jerónimos Monastery at Praça do Império, Belém, Lisbon, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Belém Tower",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Avenida Brasília waterfront, Belém, Lisbon",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Belém Tower at Avenida Brasília waterfront, Belém, Lisbon, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Pena National Palace",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Serra de Sintra above Sintra historic centre",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Pena National Palace at Serra de Sintra above Sintra historic centre, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Quinta da Regaleira",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Rua Barbosa du Bocage, Sintra",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Quinta da Regaleira at Rua Barbosa du Bocage, Sintra, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Ribeira District",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Douro riverfront below Porto Cathedral, Porto",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Ribeira District at Douro riverfront below Porto Cathedral, Porto, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Livraria Lello",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Rua das Carmelitas, Vitória, Porto",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Livraria Lello at Rua das Carmelitas, Vitória, Porto, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Palácio da Bolsa",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Rua de Ferreira Borges, historic Porto",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Palácio da Bolsa at Rua de Ferreira Borges, historic Porto, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Bom Jesus do Monte",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Monte Espinho, Tenões, Braga",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Bom Jesus do Monte at Monte Espinho, Tenões, Braga, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Monastery of Batalha",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Largo Infante Dom Henrique, Batalha, Leiria district",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Monastery of Batalha at Largo Infante Dom Henrique, Batalha, Leiria district, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Cultural": [
+          {
+            "attraction_name": "Castelo de São Jorge",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Rua de Santa Cruz do Castelo, Alfama, Lisbon",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Castelo de São Jorge at Rua de Santa Cruz do Castelo, Alfama, Lisbon, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Alfama",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Hillside lanes between São Jorge Castle and the Tagus, Lisbon",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Alfama at Hillside lanes between São Jorge Castle and the Tagus, Lisbon, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Calouste Gulbenkian Museum",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Avenida de Berna, Avenidas Novas, Lisbon",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Calouste Gulbenkian Museum at Avenida de Berna, Avenidas Novas, Lisbon, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Serralves Museum and Park",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Rua Dom João de Castro, Lordelo do Ouro, Porto",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Serralves Museum and Park at Rua Dom João de Castro, Lordelo do Ouro, Porto, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "University of Coimbra",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Paço das Escolas, Alta de Coimbra",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of University of Coimbra at Paço das Escolas, Alta de Coimbra, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Convent of Christ",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Colina do Castelo, Tomar, Santarém district",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Convent of Christ at Colina do Castelo, Tomar, Santarém district, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Nature": [
+          {
+            "attraction_name": "Cabo da Roca",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Sintra-Cascais Natural Park, Colares, Lisbon region",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Cabo da Roca at Sintra-Cascais Natural Park, Colares, Lisbon region, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Algarve sea caves and Benagil",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Coast between Benagil and Praia da Marinha, Lagoa, Algarve",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Algarve sea caves and Benagil at Coast between Benagil and Praia da Marinha, Lagoa, Algarve, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Ria Formosa Natural Park",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Barrier islands and lagoons between Faro and Tavira, Algarve",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Ria Formosa Natural Park at Barrier islands and lagoons between Faro and Tavira, Algarve, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Culinary": [
+          {
+            "attraction_name": "Douro Valley",
+            "thematic_category": "Culinary",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "Reserved tastings and specialist storytelling provide an intimate introduction to regional craftsmanship, provenance and flavour.",
+            "exact_location_context": "Terraced vineyards around Pinhão and Peso da Régua, northern Portugal",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Douro Valley at Terraced vineyards around Pinhão and Peso da Régua, northern Portugal, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining culinary character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Adventure": [
+          {
+            "attraction_name": "Pico Mountain",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Pico island, Azores archipelago",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Pico Mountain at Pico island, Azores archipelago, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ]
+      }
+    },
+    {
+      "destination": "Greece",
+      "attraction_count": 20,
+      "verification_source": "https://www.visitgreece.gr/",
+      "categories": {
+        "Cultural": [
+          {
+            "attraction_name": "Acropolis of Athens",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Acropolis hill above Plaka, central Athens",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Acropolis of Athens at Acropolis hill above Plaka, central Athens, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Acropolis Museum",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Dionysiou Areopagitou, Makrygianni, Athens",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Acropolis Museum at Dionysiou Areopagitou, Makrygianni, Athens, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Ancient Agora of Athens",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Adrianou, between Monastiraki and Thissio, Athens",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Ancient Agora of Athens at Adrianou, between Monastiraki and Thissio, Athens, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Temple of Poseidon at Sounion",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Cape Sounion, southern Attica",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Temple of Poseidon at Sounion at Cape Sounion, southern Attica, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Delphi Archaeological Site",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Mount Parnassus above Delphi village, Central Greece",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Delphi Archaeological Site at Mount Parnassus above Delphi village, Central Greece, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Meteora Monasteries",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Rock pillars above Kalabaka and Kastraki, Thessaly",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Meteora Monasteries at Rock pillars above Kalabaka and Kastraki, Thessaly, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Ancient Olympia",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Olympia archaeological zone, Elis, western Peloponnese",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Ancient Olympia at Olympia archaeological zone, Elis, western Peloponnese, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Mycenae Archaeological Site",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Mykines, Argolis, northeastern Peloponnese",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Mycenae Archaeological Site at Mykines, Argolis, northeastern Peloponnese, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Palace of Knossos",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Knossos, south of Heraklion, Crete",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Palace of Knossos at Knossos, south of Heraklion, Crete, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Akrotiri Archaeological Site",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Akrotiri, southern Santorini, Cyclades",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Akrotiri Archaeological Site at Akrotiri, southern Santorini, Cyclades, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Delos",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Sacred island west of Mykonos, Cyclades",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Delos at Sacred island west of Mykonos, Cyclades, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Palace of the Grand Master",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Street of the Knights, medieval Rhodes",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Palace of the Grand Master at Street of the Knights, medieval Rhodes, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Architecture": [
+          {
+            "attraction_name": "Epidaurus Ancient Theatre",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Sanctuary of Asklepios, Argolis, Peloponnese",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Epidaurus Ancient Theatre at Sanctuary of Asklepios, Argolis, Peloponnese, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Oia Caldera View",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Oia village, northern Santorini, Cyclades",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Oia Caldera View at Oia village, northern Santorini, Cyclades, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Mykonos Chora and Windmills",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Chora waterfront and Kato Mili, Mykonos, Cyclades",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Mykonos Chora and Windmills at Chora waterfront and Kato Mili, Mykonos, Cyclades, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Old Town of Rhodes",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Medieval walled city, Rhodes, Dodecanese",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Old Town of Rhodes at Medieval walled city, Rhodes, Dodecanese, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Adventure": [
+          {
+            "attraction_name": "Samaria Gorge",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "White Mountains between Omalos and Agia Roumeli, Crete",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Samaria Gorge at White Mountains between Omalos and Agia Roumeli, Crete, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Mount Olympus National Park",
+            "thematic_category": "Adventure",
+            "ideal_timeframe_duration": "5–7 hours",
+            "bespoke_selling_point": "Expert private guiding and premium transfers create a seamless experience combining exhilaration, comfort and exceptional scenery.",
+            "exact_location_context": "Olympus massif above Litochoro, Central Macedonia",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Mount Olympus National Park at Olympus massif above Litochoro, Central Macedonia, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining adventure character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Nature": [
+          {
+            "attraction_name": "Navagio viewpoint",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Northwestern coast near Anafonitria, Zakynthos",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Navagio viewpoint at Northwestern coast near Anafonitria, Zakynthos, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Melissani Cave",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Karavomylos near Sami, Kefalonia, Ionian Islands",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Melissani Cave at Karavomylos near Sami, Kefalonia, Ionian Islands, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ]
+      }
+    },
+    {
+      "destination": "Malta",
+      "attraction_count": 20,
+      "verification_source": "https://www.visitmalta.com/en/things-to-do-in-malta-and-gozo/",
+      "categories": {
+        "Cultural": [
+          {
+            "attraction_name": "St John’s Co-Cathedral",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Triq San Ġwann, central Valletta",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of St John’s Co-Cathedral at Triq San Ġwann, central Valletta, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Grand Master’s Palace",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "St George’s Square, Valletta",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Grand Master’s Palace at St George’s Square, Valletta, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Fort St Elmo and National War Museum",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "St Elmo Place, tip of Valletta peninsula",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Fort St Elmo and National War Museum at St Elmo Place, tip of Valletta peninsula, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "National Museum of Archaeology",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Auberge de Provence, Republic Street, Valletta",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of National Museum of Archaeology at Auberge de Provence, Republic Street, Valletta, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Fort St Angelo",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Birgu waterfront, Grand Harbour",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Fort St Angelo at Birgu waterfront, Grand Harbour, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Ħal Saflieni Hypogeum",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Triq iċ-Ċimiterju, Paola",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Ħal Saflieni Hypogeum at Triq iċ-Ċimiterju, Paola, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Ħaġar Qim and Mnajdra Temples",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Qrendi coast above Filfla, southern Malta",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Ħaġar Qim and Mnajdra Temples at Qrendi coast above Filfla, southern Malta, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Tarxien Temples",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Neolithic Temples Street, Tarxien",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Tarxien Temples at Neolithic Temples Street, Tarxien, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Popeye Village",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Anchor Bay, Mellieħa",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Popeye Village at Anchor Bay, Mellieħa, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Citadel of Victoria",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Hilltop centre of Victoria, Gozo",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Citadel of Victoria at Hilltop centre of Victoria, Gozo, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Ggantija Archaeological Park",
+            "thematic_category": "Cultural",
+            "ideal_timeframe_duration": "2–3 hours",
+            "bespoke_selling_point": "A privately guided visit brings the site’s heritage and collections into sharper focus, with an unhurried pace tailored to discerning travellers.",
+            "exact_location_context": "Xagħra plateau, Gozo",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Ggantija Archaeological Park at Xagħra plateau, Gozo, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining cultural character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Nature": [
+          {
+            "attraction_name": "Upper Barrakka Gardens",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Saluting Battery above Grand Harbour, Valletta",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Upper Barrakka Gardens at Saluting Battery above Grand Harbour, Valletta, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Blue Grotto",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Sea caves below Wied iż-Żurrieq, Qrendi",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Blue Grotto at Sea caves below Wied iż-Żurrieq, Qrendi, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Dingli Cliffs",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Western escarpment outside Dingli village",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Dingli Cliffs at Western escarpment outside Dingli village, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Golden Bay",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Il-Majjistral coast near Mellieħa",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Golden Bay at Il-Majjistral coast near Mellieħa, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Dwejra Bay",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Western Gozo near San Lawrenz",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Dwejra Bay at Western Gozo near San Lawrenz, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Blue Lagoon",
+            "thematic_category": "Nature",
+            "ideal_timeframe_duration": "4–6 hours",
+            "bespoke_selling_point": "Carefully timed private logistics create a serene encounter with the landscape while prioritising its finest light and photographic perspectives.",
+            "exact_location_context": "Comino island between Malta and Gozo",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Blue Lagoon at Comino island between Malta and Gozo, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining nature character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ],
+        "Architecture": [
+          {
+            "attraction_name": "Three Cities",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Vittoriosa, Senglea and Cospicua around Cottonera Creek",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Three Cities at Vittoriosa, Senglea and Cospicua around Cottonera Creek, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "Mdina",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "Walled hilltop old capital, central Malta",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of Mdina at Walled hilltop old capital, central Malta, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          },
+          {
+            "attraction_name": "St Paul’s Cathedral, Mdina",
+            "thematic_category": "Architecture",
+            "ideal_timeframe_duration": "1.5–2 hours",
+            "bespoke_selling_point": "A specialist-led experience reveals the landmark’s design, craftsmanship and finest viewpoints beyond a conventional sightseeing stop.",
+            "exact_location_context": "St Paul’s Square, Mdina",
+            "image_prompt": "Create a stunning realistic wide-angle promotional photograph of St Paul’s Cathedral, Mdina at St Paul’s Square, Mdina, captured in luminous golden-hour Mediterranean light with professional travel-photography styling, refined natural colour and a strong layered composition. Showcase the location’s defining architecture character with immaculate detail and atmospheric depth, excluding all people, signs, captions, logos, watermarks and readable text from the frame."
+          }
+        ]
+      }
+    }
+  ]
+}
