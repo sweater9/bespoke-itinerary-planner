@@ -1,16 +1,23 @@
-# Global Holidayz Premium Attraction Library
+# Global Holidayz Bespoke Itinerary Builder
 
-A GitHub Pages-ready attraction browser built with vanilla HTML, CSS and JavaScript.
+A complete GitHub Pages-ready itinerary planner built with vanilla HTML, CSS and JavaScript.
 
 ## Included
 
 - 12 regional JSON databases
 - 65 destination entries
 - 1,300 premium attraction records
-- Region and destination selection
-- Category filtering, keyword search and full reset
-- Responsive interface
-- No framework, package manager, API key or build step
+- Searchable attraction library with region, destination and category filters
+- Day-by-day itinerary construction
+- Morning, afternoon, evening and all-day scheduling
+- Hotels, car rentals, transfers, flights, restaurants and custom notes
+- Detailed operational notes, locations, durations and prices
+- Drag-and-drop movement between day periods
+- AED, USD, EUR and GBP quote display
+- Automatic itinerary total
+- Browser saving with local storage
+- JSON export and print-ready output
+- Responsive interface with no framework, API key or build step
 
 ## Run locally
 

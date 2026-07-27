@@ -3,35 +3,81 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Global Holidayz premium attraction database browser.">
-  <title>Global Holidayz | Premium Attractions</title>
+  <meta name="description" content="Global Holidayz bespoke itinerary planner.">
+  <title>Global Holidayz | Itinerary Builder</title>
   <link rel="stylesheet" href="styles.css">
   <script src="app.js" defer></script>
 </head>
 <body>
-  <header class="hero">
-    <div class="shell">
-      <p class="eyebrow">Global Holidayz · Destination Intelligence</p>
-      <h1>Premium attraction library</h1>
-      <p class="intro">Explore curated experiences across Europe, Asia, Africa, the Gulf and the Indian Ocean.</p>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Global Holidayz home"><span>GH</span><strong>Global Holidayz</strong></a>
+    <div class="trip-fields">
+      <label>Trip name<input id="trip-name" value="Bespoke Journey"></label>
+      <label>Client<input id="client-name" placeholder="Client or group"></label>
+      <label>Start date<input id="start-date" type="date"></label>
+      <label>Guests<input id="guests" type="number" min="1" value="2"></label>
+      <label>Currency<select id="currency"><option>AED</option><option>USD</option><option>EUR</option><option>GBP</option></select></label>
+    </div>
+    <div class="header-actions">
+      <button id="save" class="secondary">Save</button>
+      <button id="export">Export JSON</button>
+      <button id="print" class="secondary">Print</button>
     </div>
   </header>
 
-  <main class="shell">
-    <section class="controls" aria-label="Destination controls">
-      <label>Region<select id="region"><option value="">Select a region</option></select></label>
-      <label>Destination<select id="destination" disabled><option value="">Select a destination</option></select></label>
-      <label>Search<input id="search" type="search" placeholder="Search attractions or locations" disabled></label>
-    </section>
+  <main class="workspace">
+    <aside class="library">
+      <div class="panel-heading">
+        <div><p class="eyebrow">Experience library</p><h1>Build the journey</h1></div>
+        <button id="reset-library" class="text-button">Reset</button>
+      </div>
+      <div class="library-controls">
+        <label>Region<select id="region"><option value="">Select region</option></select></label>
+        <label>Destination<select id="destination" disabled><option value="">Select destination</option></select></label>
+        <label class="full">Search<input id="search" type="search" placeholder="Search attractions or locations" disabled></label>
+      </div>
+      <nav id="categories" class="categories" aria-label="Attraction categories"></nav>
+      <p id="library-status" class="status" aria-live="polite">Select a destination to browse attractions.</p>
+      <section id="library-cards" class="library-list">
+        <div class="library-empty"><span>✦</span><p>Your curated attraction database is ready.</p></div>
+      </section>
+    </aside>
 
-    <nav id="categories" class="categories" aria-label="Filter by category"></nav>
-    <div class="toolbar">
-      <p id="status" aria-live="polite">Choose a region and destination to begin.</p>
-      <button id="reset" type="button">Reset all</button>
-    </div>
-    <section id="cards" class="grid" aria-label="Attraction results">
-      <div class="empty"><span>GH</span><h2>Your curated collection awaits</h2><p>Select a destination to display its premium attractions.</p></div>
+    <section class="planner">
+      <div class="planner-header">
+        <div><p class="eyebrow">Working itinerary</p><h2 id="planner-title">Bespoke Journey</h2></div>
+        <div class="planner-actions">
+          <button id="add-custom" class="secondary">+ Hotel / Transfer / Note</button>
+          <button id="add-day">+ Add day</button>
+        </div>
+      </div>
+      <div class="summary">
+        <div><span>Days</span><strong id="day-count">1</strong></div>
+        <div><span>Guests</span><strong id="guest-count">2</strong></div>
+        <div><span>Total quote</span><strong id="grand-total">AED 0.00</strong></div>
+      </div>
+      <nav id="day-tabs" class="day-tabs" aria-label="Itinerary days"></nav>
+      <section id="day-content" class="day-content"></section>
     </section>
   </main>
+
+  <dialog id="item-dialog">
+    <form id="item-form" method="dialog">
+      <div class="dialog-head"><div><p class="eyebrow">Itinerary item</p><h2 id="dialog-title">Add custom item</h2></div><button type="button" id="close-dialog" class="icon-button" aria-label="Close">×</button></div>
+      <input id="item-id" type="hidden">
+      <div class="form-grid">
+        <label>Type<select id="item-type"><option>Attraction</option><option>Hotel</option><option>Car Rental</option><option>Transfer</option><option>Flight</option><option>Restaurant</option><option>Note</option></select></label>
+        <label>Time of day<select id="item-period"><option>Morning</option><option>Afternoon</option><option>Evening</option><option>All day</option></select></label>
+        <label class="full">Name<input id="item-name" required></label>
+        <label>Duration<input id="item-duration" placeholder="e.g. 2–3 hours"></label>
+        <label>Price<input id="item-price" type="number" min="0" step="0.01" value="0"></label>
+        <label class="full">Location<input id="item-location"></label>
+        <label class="full">Detailed notes<textarea id="item-notes" rows="5" placeholder="Pickup time, inclusions, dress code, confirmation details, accessibility, meal arrangements…"></textarea></label>
+      </div>
+      <div class="dialog-actions"><button type="button" id="cancel-dialog" class="secondary">Cancel</button><button type="submit">Save item</button></div>
+    </form>
+  </dialog>
+
+  <div id="toast" role="status" aria-live="polite"></div>
 </body>
 </html>
