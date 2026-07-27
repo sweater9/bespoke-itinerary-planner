@@ -7,6 +7,7 @@ A complete GitHub Pages-ready itinerary planner built with vanilla HTML, CSS and
 - 12 regional JSON databases
 - 65 destination entries
 - 1,300 premium attraction records
+- A real Unsplash `imageUrl` on every attraction record
 - Searchable attraction library with region, destination and category filters
 - Day-by-day itinerary construction
 - Morning, afternoon, evening and all-day scheduling
@@ -17,6 +18,7 @@ A complete GitHub Pages-ready itinerary planner built with vanilla HTML, CSS and
 - Automatic itinerary total
 - Browser saving with local storage
 - JSON export and print-ready output
+- Branded two-page A4 PDF proposal layout inspired by the supplied Global Holidayz format
 - Responsive interface with no framework, API key or build step
 
 ## Run locally
@@ -45,3 +47,14 @@ Then open `http://localhost:8080`.
 3. Keep the same nested structure: `destinations → categories → attractions`.
 
 The interface discovers destinations and categories automatically.
+
+## Create the client PDF
+
+1. Complete the trip name, client, date, guests and currency.
+2. Add hotel and flight items so the PDF summary and flight table populate automatically.
+3. Add attractions, transfers, car rentals, restaurants and detailed day notes.
+4. Enter prices on each itinerary item.
+5. Select **Generate PDF**.
+6. In the browser print window, choose **Save as PDF**, A4 paper, default margins and enable background graphics.
+
+The generated proposal contains a branded banner, trip summary, flight details, day-by-day itinerary cards, per-person pricing and package inclusions.

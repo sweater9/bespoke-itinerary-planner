@@ -1,0 +1,281 @@
+#print-document {
+  display: none;
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 12mm;
+  }
+
+  body {
+    color: #302d3d;
+    background: #fff;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  body > :not(#print-document) {
+    display: none !important;
+  }
+
+  #print-document {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9.5pt;
+    line-height: 1.45;
+  }
+
+  .pdf-page {
+    min-height: 273mm;
+    position: relative;
+    page-break-after: always;
+  }
+
+  .pdf-page:last-child {
+    page-break-after: auto;
+  }
+
+  .pdf-logo {
+    margin: 0 0 7mm;
+    color: #00a9c7;
+    font-size: 16pt;
+    font-weight: 800;
+  }
+
+  .pdf-logo span {
+    color: #ef297d;
+  }
+
+  .pdf-hero {
+    margin-bottom: 6mm;
+    padding: 11mm 8mm 8mm;
+    border-radius: 2px;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(#21184b 0 53%, #030207 53%);
+  }
+
+  .pdf-hero h1 {
+    margin: 0;
+    color: #ffc83d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25pt;
+    font-weight: 800;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+  }
+
+  .pdf-hero p {
+    margin: 1mm 0 0;
+    letter-spacing: .3em;
+  }
+
+  .pdf-trip-title {
+    margin: 0;
+    color: #292153;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19pt;
+    font-weight: 800;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+  }
+
+  .pdf-subtitle {
+    margin: 1mm 0 5mm;
+    color: #6c6882;
+    text-align: center;
+    font-style: italic;
+  }
+
+  .pdf-highlights {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 6mm;
+    border-radius: 3px;
+    background: #efedf8;
+  }
+
+  .pdf-highlight {
+    padding: 4mm 2mm;
+    text-align: center;
+    border-right: 1px solid #d7d3e6;
+  }
+
+  .pdf-highlight:last-child {
+    border-right: 0;
+  }
+
+  .pdf-highlight span {
+    display: block;
+    margin-bottom: 1mm;
+    color: #76718d;
+    font-size: 7pt;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+  }
+
+  .pdf-highlight strong {
+    color: #28214e;
+  }
+
+  .pdf-heading {
+    margin: 5mm 0 2mm;
+    color: #27204f;
+    font-size: 10pt;
+    font-weight: 900;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+  }
+
+  .pdf-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 8pt;
+  }
+
+  .pdf-table th {
+    padding: 2.5mm;
+    color: #fff;
+    text-align: left;
+    background: #51438a;
+  }
+
+  .pdf-table td {
+    padding: 2.5mm;
+    border-bottom: 1px solid #dcd8e9;
+    background: #f8f7fb;
+  }
+
+  .pdf-day {
+    margin-bottom: 4mm;
+    break-inside: avoid;
+    border: 1px solid #cfc9e8;
+    border-radius: 2px;
+    overflow: hidden;
+  }
+
+  .pdf-day-head {
+    display: grid;
+    grid-template-columns: 14mm 1fr;
+    gap: 3mm;
+    align-items: center;
+    padding: 3mm 4mm;
+    color: #fff;
+    background: #6653a4;
+  }
+
+  .pdf-day-number {
+    padding: 1mm;
+    border-radius: 2px;
+    text-align: center;
+    background: #453678;
+  }
+
+  .pdf-day-number small {
+    display: block;
+    font-size: 5pt;
+    letter-spacing: .15em;
+  }
+
+  .pdf-day-number strong {
+    font-size: 15pt;
+  }
+
+  .pdf-day-head h3 {
+    margin: 0;
+    font-size: 11pt;
+  }
+
+  .pdf-day-date {
+    color: #d9d3ec;
+    font-size: 7pt;
+    font-style: italic;
+  }
+
+  .pdf-day-body {
+    padding: 3.5mm 4mm;
+  }
+
+  .pdf-day-body p {
+    margin: 0 0 2mm;
+  }
+
+  .pdf-stay {
+    color: #51438a;
+    font-weight: 800;
+  }
+
+  .pdf-price {
+    margin-bottom: 5mm;
+    padding: 6mm;
+    text-align: center;
+    border-radius: 3px;
+    background: #efedf8;
+  }
+
+  .pdf-price span {
+    color: #6e6988;
+    font-size: 8pt;
+    font-weight: 800;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+  }
+
+  .pdf-price strong {
+    display: block;
+    margin: 2mm 0 1mm;
+    color: #e2a10d;
+    font-size: 22pt;
+  }
+
+  .pdf-price small {
+    color: #51438a;
+    font-weight: 700;
+  }
+
+  .pdf-inclusions {
+    border: 1px solid #cfc9e8;
+  }
+
+  .pdf-inclusions h3 {
+    margin: 0;
+    padding: 3mm 4mm;
+    color: #fff;
+    font-size: 10pt;
+    background: #21184b;
+  }
+
+  .pdf-inclusions ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .pdf-inclusions li {
+    padding: 2.5mm 4mm;
+    border-bottom: 1px solid #dcd8e9;
+  }
+
+  .pdf-inclusions li:nth-child(even) {
+    background: #f5f4f9;
+  }
+
+  .pdf-inclusions li::before {
+    content: "›";
+    margin-right: 3mm;
+    color: #dfa316;
+    font-weight: 900;
+  }
+
+  .pdf-footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: #9993ae;
+    text-align: center;
+    font-size: 7pt;
+  }
+}

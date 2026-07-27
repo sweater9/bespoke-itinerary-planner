@@ -5,7 +5,7 @@
   const symbols = {AED:"AED",USD:"$",EUR:"€",GBP:"£"};
   const emptyTrip = () => ({meta:{name:"Bespoke Journey",client:"",startDate:"",guests:2,currency:"AED"},days:[{id:crypto.randomUUID(),title:"Day 1",items:[]}],activeDay:0});
   let state = JSON.parse(localStorage.getItem("gh_itinerary") || "null") || emptyTrip();
-  let database = null, attractions = [], activeCategory = "All", draggedId = null;
+  let database = null, attractions = [], activeCategory = "All", draggedId = null, pendingImageUrl = "";
 
   const escapeHTML = value => String(value ?? "").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[c]));
   const money = value => `${symbols[state.meta.currency]} ${Number(value||0).toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2})}`;
@@ -35,7 +35,7 @@
     bindDragDrop();renderTotals();
   }
   function itemCard(item){return `<article class="itinerary-item" draggable="true" data-id="${item.id}">
-    <span class="drag" aria-hidden="true">⋮⋮</span><div><span class="item-type">${escapeHTML(item.type)}</span><h3>${escapeHTML(item.name)}</h3>
+    <span class="drag" aria-hidden="true">⋮⋮</span>${item.imageUrl?`<img class="item-image" src="${escapeHTML(item.imageUrl)}" alt="" loading="lazy">`:""}<div><span class="item-type">${escapeHTML(item.type)}</span><h3>${escapeHTML(item.name)}</h3>
     <p class="item-details">${escapeHTML([item.duration,item.location].filter(Boolean).join(" · "))}</p>${item.notes?`<p class="item-notes">${escapeHTML(item.notes)}</p>`:""}
     <div class="item-actions"><button data-edit="${item.id}">Edit details</button><button class="delete" data-delete="${item.id}">Remove</button></div></div>
     <strong class="item-price" data-price="${Number(item.price||0)}">${money(item.price)}</strong></article>`}
@@ -48,20 +48,21 @@
     });
   }
   function openDialog(item={}){
+    pendingImageUrl=item.imageUrl||"";
     $("#dialog-title").textContent=item.id?"Edit itinerary item":"Add custom itinerary item";$("#item-id").value=item.id||"";
     $("#item-type").value=item.type||"Hotel";$("#item-period").value=item.period||"Morning";$("#item-name").value=item.name||"";
     $("#item-duration").value=item.duration||"";$("#item-price").value=item.price||0;$("#item-location").value=item.location||"";$("#item-notes").value=item.notes||"";
     $("#item-dialog").showModal();
   }
   function addAttraction(item){
-    openDialog({type:"Attraction",period:"Morning",name:item.attraction_name,duration:item.ideal_timeframe_duration,price:0,location:item.exact_location_context,notes:item.bespoke_selling_point});
+    openDialog({type:"Attraction",period:"Morning",name:item.attraction_name,duration:item.ideal_timeframe_duration,price:0,location:item.exact_location_context,notes:item.bespoke_selling_point,imageUrl:item.imageUrl});
   }
 
   function renderLibrary(){
     const query=$("#search").value.trim().toLowerCase();
     const filtered=attractions.filter(item=>(activeCategory==="All"||item.thematic_category===activeCategory)&&(!query||`${item.attraction_name} ${item.exact_location_context}`.toLowerCase().includes(query)));
     $("#library-status").textContent=attractions.length?`${filtered.length} of ${attractions.length} attractions`:"Select a destination to browse attractions.";
-    $("#library-cards").innerHTML=filtered.length?filtered.map((item,index)=>`<article class="library-card"><div class="row"><div><h3>${escapeHTML(item.attraction_name)}</h3><p>${escapeHTML(item.thematic_category)} · ${escapeHTML(item.ideal_timeframe_duration)}</p></div><button class="add" data-add="${index}" aria-label="Add ${escapeHTML(item.attraction_name)}">+</button></div><p class="location">${escapeHTML(item.exact_location_context)}</p></article>`).join(""):'<div class="library-empty"><span>✦</span><p>Select a destination or adjust your filters.</p></div>';
+    $("#library-cards").innerHTML=filtered.length?filtered.map((item,index)=>`<article class="library-card"><img class="library-image" src="${escapeHTML(item.imageUrl)}" alt="${escapeHTML(item.attraction_name)}" loading="lazy"><div class="library-card-body"><div class="row"><div><h3>${escapeHTML(item.attraction_name)}</h3><p>${escapeHTML(item.thematic_category)} · ${escapeHTML(item.ideal_timeframe_duration)}</p></div><button class="add" data-add="${index}" aria-label="Add ${escapeHTML(item.attraction_name)}">+</button></div><p class="location">${escapeHTML(item.exact_location_context)}</p></div></article>`).join(""):'<div class="library-empty"><span>✦</span><p>Select a destination or adjust your filters.</p></div>';
     $("#library-cards").querySelectorAll("[data-add]").forEach(button=>button.addEventListener("click",()=>addAttraction(filtered[Number(button.dataset.add)])));
   }
   function renderCategories(){
@@ -71,6 +72,45 @@
   async function loadRegions(){
     const response=await fetch("data/regions.json");if(!response.ok)throw Error("Region index could not be loaded.");
     const data=await response.json();$("#region").innerHTML+=data.map(x=>`<option value="${escapeHTML(x.file)}">${escapeHTML(x.region)}</option>`).join("");
+  }
+  function dateForDay(index){
+    if(!state.meta.startDate)return "";
+    const date=new Date(`${state.meta.startDate}T12:00:00`);
+    date.setDate(date.getDate()+index);
+    return date.toLocaleDateString("en-GB",{day:"numeric",month:"long",weekday:"long"});
+  }
+  function buildDayCard(day,index){
+    const hotel=day.items.find(item=>item.type==="Hotel")||state.days.flatMap(item=>item.items).find(item=>item.type==="Hotel");
+    const narrative=day.items.length?day.items.map(item=>{
+      const detail=item.notes||`${item.name}${item.location?` at ${item.location}`:""}.`;
+      return `<p><strong>${escapeHTML(item.period)}:</strong> ${escapeHTML(detail)}</p>`;
+    }).join(""):"<p>Details to be confirmed.</p>";
+    return `<article class="pdf-day"><div class="pdf-day-head"><div class="pdf-day-number"><small>DAY</small><strong>${index+1}</strong></div><div><h3>${escapeHTML(day.title)}</h3><div class="pdf-day-date">${escapeHTML(dateForDay(index))}</div></div></div><div class="pdf-day-body">${narrative}${hotel?`<p class="pdf-stay">Overnight Stay: ${escapeHTML(hotel.name)}${hotel.location?`, ${escapeHTML(hotel.location)}`:""}</p>`:""}</div></article>`;
+  }
+  function buildPrintDocument(){
+    syncMeta();
+    const allItems=state.days.flatMap(day=>day.items);
+    const flights=allItems.filter(item=>item.type==="Flight");
+    const hotel=allItems.find(item=>item.type==="Hotel");
+    const attractions=allItems.filter(item=>item.type==="Attraction");
+    const total=allItems.reduce((sum,item)=>sum+Number(item.price||0),0);
+    const perPerson=total/Math.max(1,state.meta.guests);
+    const subtitle=attractions.slice(0,4).map(item=>item.name).join(" · ")||"Bespoke itinerary crafted around your journey";
+    const heroTitle=(state.meta.name||"Bespoke Journey").toUpperCase();
+    const flightTable=flights.length?`<h2 class="pdf-heading">Flight Details</h2><table class="pdf-table"><thead><tr><th>Sector / Flight</th><th>Date</th><th>Departure</th><th>Arrival</th><th>Duration</th><th>Route / Notes</th></tr></thead><tbody>${flights.map(flight=>{const dayIndex=state.days.findIndex(day=>day.items.some(item=>item.id===flight.id));return `<tr><td>${escapeHTML(flight.name)}</td><td>${escapeHTML(dateForDay(Math.max(0,dayIndex)))}</td><td>${escapeHTML(flight.period)}</td><td>As scheduled</td><td>${escapeHTML(flight.duration||"—")}</td><td>${escapeHTML(flight.notes||flight.location||"Direct")}</td></tr>`}).join("")}</tbody></table>`:"";
+    const firstDays=state.days.slice(0,2).map(buildDayCard).join("");
+    const remainingDays=state.days.slice(2).map((day,index)=>buildDayCard(day,index+2)).join("");
+    const inclusions=[...new Set(allItems.filter(item=>item.type!=="Note").map(item=>item.name))];
+    const footer=`${escapeHTML(state.meta.name)} · Global Holidayz`;
+    $("#print-document").innerHTML=`
+      <section class="pdf-page"><div class="pdf-logo">Global <span>holidayz</span></div><div class="pdf-hero"><h1>${escapeHTML(heroTitle)}</h1><p>Bespoke Travel Proposal</p></div>
+      <h1 class="pdf-trip-title">${escapeHTML(state.meta.name)}</h1><p class="pdf-subtitle">${escapeHTML(subtitle)}</p>
+      <div class="pdf-highlights"><div class="pdf-highlight"><span>Duration</span><strong>${state.days.length} Days / ${Math.max(0,state.days.length-1)} Nights</strong></div><div class="pdf-highlight"><span>Group Size</span><strong>${state.meta.guests} Guests</strong></div><div class="pdf-highlight"><span>Hotel</span><strong>${escapeHTML(hotel?.name||"To be confirmed")}</strong></div><div class="pdf-highlight"><span>Airline</span><strong>${escapeHTML(flights[0]?.name||"To be confirmed")}</strong></div></div>
+      ${flightTable}<h2 class="pdf-heading">Day-by-Day Itinerary</h2>${firstDays}<div class="pdf-footer">${footer} · Page 1</div></section>
+      <section class="pdf-page"><div class="pdf-logo">Global <span>holidayz</span></div>${remainingDays}
+      <h2 class="pdf-heading">Tour Pricing</h2><div class="pdf-price"><span>Tour Price Per Person</span><strong>${money(perPerson)}</strong><small>${state.meta.guests} Guests · Total Quote ${money(total)}</small></div>
+      <div class="pdf-inclusions"><h3>✓ Package Cost Includes</h3><ul>${(inclusions.length?inclusions:["Services as detailed in the confirmed itinerary"]).map(item=>`<li>${escapeHTML(item)}</li>`).join("")}</ul></div>
+      <div class="pdf-footer">${footer} · Page 2</div></section>`;
   }
   function init(){
     $("#trip-name").value=state.meta.name;$("#client-name").value=state.meta.client;$("#start-date").value=state.meta.startDate;$("#guests").value=state.meta.guests;$("#currency").value=state.meta.currency;
@@ -89,9 +129,9 @@
   $("#add-day").addEventListener("click",()=>{state.days.push({id:crypto.randomUUID(),title:`Day ${state.days.length+1}`,items:[]});state.activeDay=state.days.length-1;persist();renderDays()});
   $("#add-custom").addEventListener("click",()=>openDialog());
   $("#close-dialog").addEventListener("click",()=>$("#item-dialog").close());$("#cancel-dialog").addEventListener("click",()=>$("#item-dialog").close());
-  $("#item-form").addEventListener("submit",event=>{event.preventDefault();const id=$("#item-id").value||crypto.randomUUID();const item={id,type:$("#item-type").value,period:$("#item-period").value,name:$("#item-name").value.trim(),duration:$("#item-duration").value.trim(),price:Number($("#item-price").value)||0,location:$("#item-location").value.trim(),notes:$("#item-notes").value.trim()};const index=activeDay().items.findIndex(x=>x.id===id);if(index>=0)activeDay().items[index]=item;else activeDay().items.push(item);persist();$("#item-dialog").close();renderDays();toast(index>=0?"Item updated":"Item added")});
+  $("#item-form").addEventListener("submit",event=>{event.preventDefault();const id=$("#item-id").value||crypto.randomUUID();const item={id,type:$("#item-type").value,period:$("#item-period").value,name:$("#item-name").value.trim(),duration:$("#item-duration").value.trim(),price:Number($("#item-price").value)||0,location:$("#item-location").value.trim(),notes:$("#item-notes").value.trim(),imageUrl:pendingImageUrl};const index=activeDay().items.findIndex(x=>x.id===id);if(index>=0)activeDay().items[index]=item;else activeDay().items.push(item);persist();$("#item-dialog").close();renderDays();toast(index>=0?"Item updated":"Item added")});
   $("#save").addEventListener("click",()=>{persist();toast("Working itinerary saved")});
-  $("#print").addEventListener("click",()=>window.print());
+  $("#print").addEventListener("click",()=>{buildPrintDocument();window.print()});
   $("#export").addEventListener("click",()=>{syncMeta();const blob=new Blob([JSON.stringify(state,null,2)],{type:"application/json"}),url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download=`${state.meta.name.toLowerCase().replace(/[^a-z0-9]+/g,"-")||"itinerary"}.json`;a.click();URL.revokeObjectURL(url)});
   init();
 })();

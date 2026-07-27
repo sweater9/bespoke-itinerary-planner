@@ -6,6 +6,8 @@
   <meta name="description" content="Global Holidayz bespoke itinerary planner.">
   <title>Global Holidayz | Itinerary Builder</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="image-styles.css">
+  <link rel="stylesheet" href="print-template.css">
   <script src="app.js" defer></script>
 </head>
 <body>
@@ -21,7 +23,7 @@
     <div class="header-actions">
       <button id="save" class="secondary">Save</button>
       <button id="export">Export JSON</button>
-      <button id="print" class="secondary">Print</button>
+      <button id="print" class="secondary">Generate PDF</button>
     </div>
   </header>
 
@@ -79,5 +81,6 @@
   </dialog>
 
   <div id="toast" role="status" aria-live="polite"></div>
+  <section id="print-document" aria-hidden="true"></section>
 </body>
 </html>
