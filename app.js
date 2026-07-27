@@ -112,6 +112,73 @@
       <div class="pdf-inclusions"><h3>✓ Package Cost Includes</h3><ul>${(inclusions.length?inclusions:["Services as detailed in the confirmed itinerary"]).map(item=>`<li>${escapeHTML(item)}</li>`).join("")}</ul></div>
       <div class="pdf-footer">${footer} · Page 2</div></section>`;
   }
+  async function downloadPdf(){
+  buildPrintDocument();
+
+  if(typeof html2pdf!=="function"){
+    toast("PDF generator could not be loaded");
+    return;
+  }
+
+  const printMediaRules=[];
+
+  for(const sheet of document.styleSheets){
+    try{
+      for(const rule of sheet.cssRules){
+        if(rule instanceof CSSMediaRule&&rule.conditionText==="print"){
+          printMediaRules.push(rule);
+          rule.media.mediaText="all";
+        }
+      }
+    }catch(error){
+      // Ignore stylesheets whose rules cannot be read.
+    }
+  }
+
+  const documentElement=$("#print-document");
+  const previousWidth=documentElement.style.width;
+  documentElement.style.width="186mm";
+
+  const filename=`${
+    state.meta.name
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g,"-")
+      .replace(/^-|-$/g,"") || "itinerary"
+  }.pdf`;
+
+  try{
+    await new Promise(resolve =>
+      requestAnimationFrame(() => requestAnimationFrame(resolve))
+    );
+
+    await html2pdf().set({
+      margin:[12,12,12,12],
+      filename,
+      image:{type:"jpeg",quality:0.98},
+      html2canvas:{
+        scale:2,
+        useCORS:true,
+        backgroundColor:"#ffffff"
+      },
+      jsPDF:{
+        unit:"mm",
+        format:"a4",
+        orientation:"portrait"
+      },
+      pagebreak:{
+        mode:["css","legacy"]
+      }
+    }).from(documentElement).save();
+
+    toast("PDF downloaded");
+  }catch(error){
+    console.error("PDF generation failed",error);
+    toast("PDF generation failed");
+  }finally{
+    documentElement.style.width=previousWidth;
+    printMediaRules.forEach(rule => rule.media.mediaText="print");
+  }
+}
   function init(){
     $("#trip-name").value=state.meta.name;$("#client-name").value=state.meta.client;$("#start-date").value=state.meta.startDate;$("#guests").value=state.meta.guests;$("#currency").value=state.meta.currency;
     ["trip-name","client-name","start-date","guests","currency"].forEach(id=>$("#"+id).addEventListener("input",syncMeta));
