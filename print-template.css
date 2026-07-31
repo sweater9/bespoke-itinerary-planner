@@ -29,13 +29,13 @@
   .pdf-page {
     position: relative;
     padding-bottom: 4mm;
-    break-after: auto;
-    page-break-after: auto;
+    break-after: page;
+    page-break-after: always;
   }
 
-  .pdf-page + .pdf-page {
-    break-before: page;
-    page-break-before: always;
+  .pdf-page:last-child {
+    break-after: auto;
+    page-break-after: auto;
   }
 
   .pdf-logo {
@@ -200,8 +200,48 @@
     padding: 3.5mm 4mm;
   }
 
+  .pdf-day-image {
+    display: block;
+    width: 100%;
+    height: 43mm;
+    object-fit: cover;
+  }
+
   .pdf-day-body p {
     margin: 0 0 2mm;
+  }
+
+  .pdf-section-title {
+    margin: 0 0 5mm;
+    color: #292153;
+    font-size: 18pt;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+  }
+
+  .pdf-schedule-line {
+    position: relative;
+    margin-bottom: 3mm;
+    padding-bottom: 3mm;
+    padding-right: 27mm;
+    border-bottom: 1px solid #ece9f3;
+  }
+
+  .pdf-schedule-line:last-child {
+    border-bottom: 0;
+  }
+
+  .pdf-schedule-line small {
+    color: #77718d;
+  }
+
+  .pdf-line-price {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #51438a;
+    font-size: 8pt;
+    font-weight: 800;
   }
 
   .pdf-stay {
@@ -269,6 +309,52 @@
     margin-right: 3mm;
     color: #dfa316;
     font-weight: 900;
+  }
+
+  .pdf-summary-table {
+    width: 100%;
+    margin-bottom: 5mm;
+    border-collapse: collapse;
+  }
+
+  .pdf-summary-table td {
+    padding: 3mm 4mm;
+    border-bottom: 1px solid #ded9eb;
+  }
+
+  .pdf-summary-table td:last-child {
+    text-align: right;
+    font-weight: 800;
+  }
+
+  .pdf-summary-table .total td {
+    color: #fff;
+    background: #51438a;
+    font-size: 11pt;
+  }
+
+  .pdf-validity {
+    margin: 0 0 5mm;
+    color: #51438a;
+    text-align: center;
+  }
+
+  .pdf-terms {
+    margin-top: 5mm;
+    padding: 4mm;
+    border-left: 3px solid #dfa316;
+    background: #f8f7fb;
+  }
+
+  .pdf-terms h3 {
+    margin: 0 0 2mm;
+    color: #292153;
+  }
+
+  .pdf-terms p {
+    margin: 0;
+    color: #68627c;
+    font-size: 8pt;
   }
 
   .pdf-footer {

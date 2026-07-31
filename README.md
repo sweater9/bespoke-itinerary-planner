@@ -13,6 +13,9 @@ A complete GitHub Pages-ready itinerary planner built with vanilla HTML, CSS and
 - Morning, afternoon, evening and all-day scheduling
 - Hotels, car rentals, transfers, flights, restaurants and custom notes
 - Detailed operational notes, locations, durations and prices
+- Supplier cost, client selling price, per-guest pricing, tax, service fees and estimated margin
+- Client-safe PDF controls for item prices, attraction images, quotation validity and terms
+- Dynamically paginated Global Holidayz PDF proposals with accurate page numbering
 - Drag-and-drop movement between day periods
 - AED, USD, EUR and GBP quote display
 - Automatic itinerary total
