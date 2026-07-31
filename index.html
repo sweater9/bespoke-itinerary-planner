@@ -7,6 +7,7 @@
   <title>Global Holidayz | Itinerary Builder</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="image-styles.css">
+  <link rel="stylesheet" href="pricing-styles.css">
   <link rel="stylesheet" href="print-template.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" defer></script>
   <script src="app.js" defer></script>
@@ -57,8 +58,22 @@
       <div class="summary">
         <div><span>Days</span><strong id="day-count">1</strong></div>
         <div><span>Guests</span><strong id="guest-count">2</strong></div>
+        <div><span>Client subtotal</span><strong id="client-subtotal">AED 0.00</strong></div>
+        <div><span>Supplier cost</span><strong id="supplier-total">AED 0.00</strong></div>
+        <div><span>Est. margin</span><strong id="profit-margin">0%</strong></div>
         <div><span>Total quote</span><strong id="grand-total">AED 0.00</strong></div>
       </div>
+      <details class="pricing-panel">
+        <summary>Quote & PDF settings</summary>
+        <div class="pricing-grid">
+          <label>Tax / VAT %<input id="tax-percent" type="number" min="0" step="0.01" value="0"></label>
+          <label>Service fee<input id="service-fee" type="number" min="0" step="0.01" value="0"></label>
+          <label>Quote valid until<input id="quote-valid-until" type="date"></label>
+          <label class="toggle"><input id="show-item-prices" type="checkbox" checked> Show item prices in PDF</label>
+          <label class="toggle"><input id="include-pdf-images" type="checkbox" checked> Include attraction images</label>
+          <label class="full">Client terms<textarea id="quote-terms" rows="3">Prices are subject to availability at the time of confirmation. Final services are confirmed only after receipt of payment.</textarea></label>
+        </div>
+      </details>
       <nav id="day-tabs" class="day-tabs" aria-label="Itinerary days"></nav>
       <section id="day-content" class="day-content"></section>
     </section>
@@ -73,7 +88,9 @@
         <label>Time of day<select id="item-period"><option>Morning</option><option>Afternoon</option><option>Evening</option><option>All day</option></select></label>
         <label class="full">Name<input id="item-name" required></label>
         <label>Duration<input id="item-duration" placeholder="e.g. 2–3 hours"></label>
-        <label>Price<input id="item-price" type="number" min="0" step="0.01" value="0"></label>
+        <label>Supplier cost<input id="supplier-cost" type="number" min="0" step="0.01" value="0"></label>
+        <label>Client price<input id="item-price" type="number" min="0" step="0.01" value="0"></label>
+        <label>Pricing basis<select id="pricing-basis"><option value="total">Total booking</option><option value="per-person">Per guest</option></select></label>
         <label class="full">Location<input id="item-location"></label>
         <label class="full">Detailed notes<textarea id="item-notes" rows="5" placeholder="Pickup time, inclusions, dress code, confirmation details, accessibility, meal arrangements…"></textarea></label>
       </div>
