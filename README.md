@@ -57,7 +57,8 @@ The interface discovers destinations and categories automatically.
 2. Add hotel and flight items so the PDF summary and flight table populate automatically.
 3. Add attractions, transfers, car rentals, restaurants and detailed day notes.
 4. Enter prices on each itinerary item.
-5. Select **Generate PDF**.
-6. In the browser print window, choose **Save as PDF**, A4 paper, default margins and enable background graphics.
+5. Select **Generate PDF** to open the proposal in a new preview tab.
+6. Review every page, then select **Print / Save PDF** to open the browser print dialog and save the final PDF.
+7. In the browser print window, choose **Save as PDF**, A4 paper, default margins and enable background graphics.
 
 The generated proposal contains a branded banner, trip summary, flight details, day-by-day itinerary cards, per-person pricing and package inclusions.
