@@ -62,3 +62,5 @@ The interface discovers destinations and categories automatically.
 7. In the browser print window, choose **Save as PDF**, A4 paper, default margins and enable background graphics.
 
 The generated proposal contains a branded banner, trip summary, flight details, day-by-day itinerary cards, per-person pricing and package inclusions.
+
+The deployed asset URLs are versioned so browsers receive the current PDF preview code after each public release instead of reusing a retired cached generator.
