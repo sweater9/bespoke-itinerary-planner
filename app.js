@@ -152,7 +152,8 @@
 
     buildPrintDocument();
     const title=`${state.meta.name||"Bespoke Journey"} · PDF Preview`;
-    const stylesheetUrls=["styles.css","image-styles.css","pricing-styles.css","print-template.css"].map(path=>new URL(path,window.location.href).href);
+    const assetVersion="20260731.2";
+    const stylesheetUrls=["styles.css","image-styles.css","pricing-styles.css","print-template.css"].map(path=>new URL(`${path}?v=${assetVersion}`,window.location.href).href);
     const previewContent=$("#print-document").innerHTML;
 
     previewWindow.document.open();
