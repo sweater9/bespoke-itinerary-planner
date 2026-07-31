@@ -1,0 +1,79 @@
+.pricing-panel {
+  margin: -8px 0 20px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: var(--shadow);
+}
+
+.pricing-panel summary {
+  cursor: pointer;
+  padding: 14px 16px;
+  color: var(--navy);
+  font-weight: 800;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 13px;
+  padding: 0 16px 16px;
+}
+
+.pricing-grid label {
+  display: grid;
+  gap: 5px;
+  color: var(--muted);
+  font-size: .68rem;
+  font-weight: 800;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+}
+
+.pricing-grid input,
+.pricing-grid textarea {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  padding: 10px;
+  color: var(--ink);
+  background: #fff;
+}
+
+.pricing-grid .toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  align-self: end;
+  min-height: 40px;
+}
+
+.pricing-grid .toggle input {
+  width: auto;
+}
+
+.pricing-grid .full {
+  grid-column: 1 / -1;
+}
+
+.item-price small {
+  display: block;
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: .65rem;
+  font-weight: 500;
+}
+
+#profit-margin {
+  font-size: 1rem;
+}
+
+@media (max-width: 760px) {
+  .pricing-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pricing-grid .full {
+    grid-column: auto;
+  }
+}
