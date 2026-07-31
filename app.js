@@ -3,24 +3,41 @@
   const $ = selector => document.querySelector(selector);
   const periods = ["Morning","Afternoon","Evening","All day"];
   const symbols = {AED:"AED",USD:"$",EUR:"€",GBP:"£"};
-  const emptyTrip = () => ({meta:{name:"Bespoke Journey",client:"",startDate:"",guests:2,currency:"AED"},days:[{id:crypto.randomUUID(),title:"Day 1",items:[]}],activeDay:0});
+  const defaultMeta = () => ({name:"Bespoke Journey",client:"",startDate:"",guests:2,currency:"AED",taxPercent:0,serviceFee:0,quoteValidUntil:"",showItemPrices:true,includePdfImages:true,terms:"Prices are subject to availability at the time of confirmation. Final services are confirmed only after receipt of payment."});
+  const emptyTrip = () => ({meta:defaultMeta(),days:[{id:crypto.randomUUID(),title:"Day 1",items:[]}],activeDay:0});
   let state = JSON.parse(localStorage.getItem("gh_itinerary") || "null") || emptyTrip();
+  state.meta={...defaultMeta(),...state.meta};
+  state.days=state.days.map(day=>({...day,items:(day.items||[]).map(item=>({...item,price:Number(item.price||0),supplierCost:Number(item.supplierCost||0),pricingBasis:item.pricingBasis==="per-person"?"per-person":"total"}))}));
   let database = null, attractions = [], activeCategory = "All", draggedId = null, pendingImageUrl = "";
 
   const escapeHTML = value => String(value ?? "").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[c]));
   const money = value => `${symbols[state.meta.currency]} ${Number(value||0).toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2})}`;
   const activeDay = () => state.days[state.activeDay];
   const persist = () => localStorage.setItem("gh_itinerary",JSON.stringify(state));
+  const itemMultiplier = item => item.pricingBasis==="per-person"?state.meta.guests:1;
+  const itemSellTotal = item => Number(item.price||0)*itemMultiplier(item);
+  const itemSupplierTotal = item => Number(item.supplierCost||0)*itemMultiplier(item);
+  function quoteTotals(){
+    const items=state.days.flatMap(day=>day.items);
+    const subtotal=items.reduce((sum,item)=>sum+itemSellTotal(item),0);
+    const supplier=items.reduce((sum,item)=>sum+itemSupplierTotal(item),0);
+    const tax=subtotal*(Number(state.meta.taxPercent||0)/100);
+    const serviceFee=Number(state.meta.serviceFee||0);
+    const grandTotal=subtotal+tax+serviceFee;
+    const profit=subtotal+serviceFee-supplier;
+    const margin=subtotal+serviceFee>0?profit/(subtotal+serviceFee)*100:0;
+    return {subtotal,supplier,tax,serviceFee,grandTotal,profit,margin};
+  }
   function toast(message){const el=$("#toast");el.textContent=message;el.classList.add("show");clearTimeout(toast.timer);toast.timer=setTimeout(()=>el.classList.remove("show"),1800)}
 
   function syncMeta(){
-    state.meta={name:$("#trip-name").value||"Bespoke Journey",client:$("#client-name").value,startDate:$("#start-date").value,guests:Math.max(1,Number($("#guests").value)||1),currency:$("#currency").value};
+    state.meta={...state.meta,name:$("#trip-name").value||"Bespoke Journey",client:$("#client-name").value,startDate:$("#start-date").value,guests:Math.max(1,Number($("#guests").value)||1),currency:$("#currency").value,taxPercent:Math.max(0,Number($("#tax-percent").value)||0),serviceFee:Math.max(0,Number($("#service-fee").value)||0),quoteValidUntil:$("#quote-valid-until").value,showItemPrices:$("#show-item-prices").checked,includePdfImages:$("#include-pdf-images").checked,terms:$("#quote-terms").value.trim()};
     $("#planner-title").textContent=state.meta.name;$("#guest-count").textContent=state.meta.guests;persist();renderTotals();
   }
   function renderTotals(){
-    const total=state.days.flatMap(day=>day.items).reduce((sum,item)=>sum+Number(item.price||0),0);
-    $("#grand-total").textContent=money(total);$("#day-count").textContent=state.days.length;
-    document.querySelectorAll("[data-price]").forEach(el=>el.textContent=money(el.dataset.price));
+    const totals=quoteTotals();
+    $("#client-subtotal").textContent=money(totals.subtotal);$("#supplier-total").textContent=money(totals.supplier);$("#profit-margin").textContent=`${totals.margin.toFixed(1)}% · ${money(totals.profit)}`;$("#grand-total").textContent=money(totals.grandTotal);$("#day-count").textContent=state.days.length;
+    document.querySelectorAll("[data-item-price]").forEach(el=>{const item=state.days.flatMap(day=>day.items).find(candidate=>candidate.id===el.dataset.itemPrice);if(item)el.firstChild.textContent=money(itemSellTotal(item))});
   }
   function renderDays(){
     $("#day-tabs").innerHTML=state.days.map((day,index)=>`<button class="day-tab${index===state.activeDay?" active":""}" data-day="${index}">${escapeHTML(day.title)}</button>`).join("");
@@ -38,7 +55,7 @@
     <span class="drag" aria-hidden="true">⋮⋮</span>${item.imageUrl?`<img class="item-image" src="${escapeHTML(item.imageUrl)}" alt="" loading="lazy">`:""}<div><span class="item-type">${escapeHTML(item.type)}</span><h3>${escapeHTML(item.name)}</h3>
     <p class="item-details">${escapeHTML([item.duration,item.location].filter(Boolean).join(" · "))}</p>${item.notes?`<p class="item-notes">${escapeHTML(item.notes)}</p>`:""}
     <div class="item-actions"><button data-edit="${item.id}">Edit details</button><button class="delete" data-delete="${item.id}">Remove</button></div></div>
-    <strong class="item-price" data-price="${Number(item.price||0)}">${money(item.price)}</strong></article>`}
+    <strong class="item-price" data-item-price="${item.id}">${money(itemSellTotal(item))}<small>${item.pricingBasis==="per-person"?"per guest":"total"}</small></strong></article>`}
   function bindDragDrop(){
     document.querySelectorAll(".itinerary-item").forEach(item=>item.addEventListener("dragstart",()=>draggedId=item.dataset.id));
     document.querySelectorAll(".period-items").forEach(zone=>{
@@ -51,11 +68,11 @@
     pendingImageUrl=item.imageUrl||"";
     $("#dialog-title").textContent=item.id?"Edit itinerary item":"Add custom itinerary item";$("#item-id").value=item.id||"";
     $("#item-type").value=item.type||"Hotel";$("#item-period").value=item.period||"Morning";$("#item-name").value=item.name||"";
-    $("#item-duration").value=item.duration||"";$("#item-price").value=item.price||0;$("#item-location").value=item.location||"";$("#item-notes").value=item.notes||"";
+    $("#item-duration").value=item.duration||"";$("#supplier-cost").value=item.supplierCost||0;$("#item-price").value=item.price||0;$("#pricing-basis").value=item.pricingBasis||"total";$("#item-location").value=item.location||"";$("#item-notes").value=item.notes||"";
     $("#item-dialog").showModal();
   }
   function addAttraction(item){
-    openDialog({type:"Attraction",period:"Morning",name:item.attraction_name,duration:item.ideal_timeframe_duration,price:0,location:item.exact_location_context,notes:item.bespoke_selling_point,imageUrl:item.imageUrl});
+    openDialog({type:"Attraction",period:"Morning",name:item.attraction_name,duration:item.ideal_timeframe_duration,supplierCost:0,price:0,pricingBasis:"total",location:item.exact_location_context,notes:item.bespoke_selling_point,imageUrl:item.imageUrl});
   }
 
   function renderLibrary(){
@@ -81,11 +98,23 @@
   }
   function buildDayCard(day,index){
     const hotel=day.items.find(item=>item.type==="Hotel")||state.days.flatMap(item=>item.items).find(item=>item.type==="Hotel");
+    const image=state.meta.includePdfImages?day.items.find(item=>item.imageUrl)?.imageUrl:"";
     const narrative=day.items.length?day.items.map(item=>{
       const detail=item.notes||`${item.name}${item.location?` at ${item.location}`:""}.`;
-      return `<p><strong>${escapeHTML(item.period)}:</strong> ${escapeHTML(detail)}</p>`;
+      const price=state.meta.showItemPrices&&itemSellTotal(item)>0?`<span class="pdf-line-price">${money(itemSellTotal(item))}</span>`:"";
+      return `<div class="pdf-schedule-line"><p><strong>${escapeHTML(item.period)} · ${escapeHTML(item.name)}</strong>${price}</p><p>${escapeHTML(detail)}</p>${item.duration||item.location?`<small>${escapeHTML([item.duration,item.location].filter(Boolean).join(" · "))}</small>`:""}</div>`;
     }).join(""):"<p>Details to be confirmed.</p>";
-    return `<article class="pdf-day"><div class="pdf-day-head"><div class="pdf-day-number"><small>DAY</small><strong>${index+1}</strong></div><div><h3>${escapeHTML(day.title)}</h3><div class="pdf-day-date">${escapeHTML(dateForDay(index))}</div></div></div><div class="pdf-day-body">${narrative}${hotel?`<p class="pdf-stay">Overnight Stay: ${escapeHTML(hotel.name)}${hotel.location?`, ${escapeHTML(hotel.location)}`:""}</p>`:""}</div></article>`;
+    return `<article class="pdf-day"><div class="pdf-day-head"><div class="pdf-day-number"><small>DAY</small><strong>${index+1}</strong></div><div><h3>${escapeHTML(day.title)}</h3><div class="pdf-day-date">${escapeHTML(dateForDay(index))}</div></div></div>${image?`<img class="pdf-day-image" src="${escapeHTML(image)}" alt="">`:""}<div class="pdf-day-body">${narrative}${hotel?`<p class="pdf-stay">Overnight Stay: ${escapeHTML(hotel.name)}${hotel.location?`, ${escapeHTML(hotel.location)}`:""}</p>`:""}</div></article>`;
+  }
+  function paginateDays(){
+    const groups=[];let current=[],weight=0;
+    state.days.forEach((day,index)=>{
+      const dayWeight=280+day.items.reduce((sum,item)=>sum+String(item.notes||item.name||"").length,0);
+      if(current.length&&(current.length>=2||weight+dayWeight>1050)){groups.push(current);current=[];weight=0}
+      current.push({day,index});weight+=dayWeight;
+    });
+    if(current.length)groups.push(current);
+    return groups;
   }
   function buildPrintDocument(){
     syncMeta();
@@ -93,24 +122,26 @@
     const flights=allItems.filter(item=>item.type==="Flight");
     const hotel=allItems.find(item=>item.type==="Hotel");
     const attractions=allItems.filter(item=>item.type==="Attraction");
-    const total=allItems.reduce((sum,item)=>sum+Number(item.price||0),0);
-    const perPerson=total/Math.max(1,state.meta.guests);
+    const totals=quoteTotals();
+    const perPerson=totals.grandTotal/Math.max(1,state.meta.guests);
     const subtitle=attractions.slice(0,4).map(item=>item.name).join(" · ")||"Bespoke itinerary crafted around your journey";
     const heroTitle=(state.meta.name||"Bespoke Journey").toUpperCase();
     const flightTable=flights.length?`<h2 class="pdf-heading">Flight Details</h2><table class="pdf-table"><thead><tr><th>Sector / Flight</th><th>Date</th><th>Departure</th><th>Arrival</th><th>Duration</th><th>Route / Notes</th></tr></thead><tbody>${flights.map(flight=>{const dayIndex=state.days.findIndex(day=>day.items.some(item=>item.id===flight.id));return `<tr><td>${escapeHTML(flight.name)}</td><td>${escapeHTML(dateForDay(Math.max(0,dayIndex)))}</td><td>${escapeHTML(flight.period)}</td><td>As scheduled</td><td>${escapeHTML(flight.duration||"—")}</td><td>${escapeHTML(flight.notes||flight.location||"Direct")}</td></tr>`}).join("")}</tbody></table>`:"";
-    const firstDays=state.days.slice(0,2).map(buildDayCard).join("");
-    const remainingDays=state.days.slice(2).map((day,index)=>buildDayCard(day,index+2)).join("");
     const inclusions=[...new Set(allItems.filter(item=>item.type!=="Note").map(item=>item.name))];
     const footer=`${escapeHTML(state.meta.name)} · Global Holidayz`;
-    $("#print-document").innerHTML=`
-      <section class="pdf-page"><div class="pdf-logo">Global <span>holidayz</span></div><div class="pdf-hero"><h1>${escapeHTML(heroTitle)}</h1><p>Bespoke Travel Proposal</p></div>
+    const cover=`<div class="pdf-logo">Global <span>holidayz</span></div><div class="pdf-hero"><h1>${escapeHTML(heroTitle)}</h1><p>Bespoke Travel Proposal</p></div>
       <h1 class="pdf-trip-title">${escapeHTML(state.meta.name)}</h1><p class="pdf-subtitle">${escapeHTML(subtitle)}</p>
-      <div class="pdf-highlights"><div class="pdf-highlight"><span>Duration</span><strong>${state.days.length} Days / ${Math.max(0,state.days.length-1)} Nights</strong></div><div class="pdf-highlight"><span>Group Size</span><strong>${state.meta.guests} Guests</strong></div><div class="pdf-highlight"><span>Hotel</span><strong>${escapeHTML(hotel?.name||"To be confirmed")}</strong></div><div class="pdf-highlight"><span>Airline</span><strong>${escapeHTML(flights[0]?.name||"To be confirmed")}</strong></div></div>
-      ${flightTable}<h2 class="pdf-heading">Day-by-Day Itinerary</h2>${firstDays}<div class="pdf-footer">${footer} · Page 1</div></section>
-      <section class="pdf-page"><div class="pdf-logo">Global <span>holidayz</span></div>${remainingDays}
-      <h2 class="pdf-heading">Tour Pricing</h2><div class="pdf-price"><span>Tour Price Per Person</span><strong>${money(perPerson)}</strong><small>${state.meta.guests} Guests · Total Quote ${money(total)}</small></div>
+      <div class="pdf-highlights"><div class="pdf-highlight"><span>Duration</span><strong>${state.days.length} Days / ${Math.max(0,state.days.length-1)} Nights</strong></div><div class="pdf-highlight"><span>Group Size</span><strong>${state.meta.guests} Guests</strong></div><div class="pdf-highlight"><span>Hotel</span><strong>${escapeHTML(hotel?.name||"To be confirmed")}</strong></div><div class="pdf-highlight"><span>Airline</span><strong>${escapeHTML(flights[0]?.name||"To be confirmed")}</strong></div></div>${flightTable}`;
+    const itineraryPages=paginateDays().map((group,pageIndex)=>`<div class="pdf-logo">Global <span>holidayz</span></div><h2 class="pdf-section-title">Your Journey · ${pageIndex+1}</h2>${group.map(({day,index})=>buildDayCard(day,index)).join("")}`);
+    const validity=state.meta.quoteValidUntil?new Date(`${state.meta.quoteValidUntil}T12:00:00`).toLocaleDateString("en-GB",{day:"numeric",month:"long",year:"numeric"}):"As stated in your confirmation";
+    const pricing=`<div class="pdf-logo">Global <span>holidayz</span></div><h2 class="pdf-section-title">Investment Summary</h2>
+      <div class="pdf-price"><span>Total Bespoke Journey</span><strong>${money(totals.grandTotal)}</strong><small>${state.meta.guests} Guests · ${money(perPerson)} per person</small></div>
+      <table class="pdf-summary-table"><tr><td>Itinerary subtotal</td><td>${money(totals.subtotal)}</td></tr>${totals.tax?`<tr><td>Tax / VAT (${Number(state.meta.taxPercent).toFixed(2)}%)</td><td>${money(totals.tax)}</td></tr>`:""}${totals.serviceFee?`<tr><td>Service fee</td><td>${money(totals.serviceFee)}</td></tr>`:""}<tr class="total"><td>Total quote</td><td>${money(totals.grandTotal)}</td></tr></table>
+      <p class="pdf-validity"><strong>Quotation valid until:</strong> ${escapeHTML(validity)}</p>
       <div class="pdf-inclusions"><h3>✓ Package Cost Includes</h3><ul>${(inclusions.length?inclusions:["Services as detailed in the confirmed itinerary"]).map(item=>`<li>${escapeHTML(item)}</li>`).join("")}</ul></div>
-      <div class="pdf-footer">${footer} · Page 2</div></section>`;
+      ${state.meta.terms?`<div class="pdf-terms"><h3>Terms & Conditions</h3><p>${escapeHTML(state.meta.terms)}</p></div>`:""}`;
+    const pages=[cover,...itineraryPages,pricing];
+    $("#print-document").innerHTML=pages.map((content,index)=>`<section class="pdf-page">${content}<div class="pdf-footer">${footer} · Page ${index+1} of ${pages.length}</div></section>`).join("");
   }
   async function downloadPdf(){
   buildPrintDocument();
@@ -150,6 +181,13 @@
     await new Promise(resolve =>
       requestAnimationFrame(() => requestAnimationFrame(resolve))
     );
+    const pendingImages=[...documentElement.images].filter(image=>!image.complete);
+    if(pendingImages.length){
+      await Promise.race([
+        Promise.all(pendingImages.map(image=>new Promise(resolve=>{image.addEventListener("load",resolve,{once:true});image.addEventListener("error",resolve,{once:true})}))),
+        new Promise(resolve=>setTimeout(resolve,6000))
+      ]);
+    }
 
     await html2pdf().set({
       margin:[12,12,12,12],
@@ -181,7 +219,8 @@
 }
   function init(){
     $("#trip-name").value=state.meta.name;$("#client-name").value=state.meta.client;$("#start-date").value=state.meta.startDate;$("#guests").value=state.meta.guests;$("#currency").value=state.meta.currency;
-    ["trip-name","client-name","start-date","guests","currency"].forEach(id=>$("#"+id).addEventListener("input",syncMeta));
+    $("#tax-percent").value=state.meta.taxPercent;$("#service-fee").value=state.meta.serviceFee;$("#quote-valid-until").value=state.meta.quoteValidUntil;$("#show-item-prices").checked=state.meta.showItemPrices;$("#include-pdf-images").checked=state.meta.includePdfImages;$("#quote-terms").value=state.meta.terms;
+    ["trip-name","client-name","start-date","guests","currency","tax-percent","service-fee","quote-valid-until","show-item-prices","include-pdf-images","quote-terms"].forEach(id=>$("#"+id).addEventListener("input",syncMeta));
     syncMeta();renderDays();loadRegions().catch(error=>$("#library-status").textContent=error.message);
   }
 
@@ -196,7 +235,7 @@
   $("#add-day").addEventListener("click",()=>{state.days.push({id:crypto.randomUUID(),title:`Day ${state.days.length+1}`,items:[]});state.activeDay=state.days.length-1;persist();renderDays()});
   $("#add-custom").addEventListener("click",()=>openDialog());
   $("#close-dialog").addEventListener("click",()=>$("#item-dialog").close());$("#cancel-dialog").addEventListener("click",()=>$("#item-dialog").close());
-  $("#item-form").addEventListener("submit",event=>{event.preventDefault();const id=$("#item-id").value||crypto.randomUUID();const item={id,type:$("#item-type").value,period:$("#item-period").value,name:$("#item-name").value.trim(),duration:$("#item-duration").value.trim(),price:Number($("#item-price").value)||0,location:$("#item-location").value.trim(),notes:$("#item-notes").value.trim(),imageUrl:pendingImageUrl};const index=activeDay().items.findIndex(x=>x.id===id);if(index>=0)activeDay().items[index]=item;else activeDay().items.push(item);persist();$("#item-dialog").close();renderDays();toast(index>=0?"Item updated":"Item added")});
+  $("#item-form").addEventListener("submit",event=>{event.preventDefault();const id=$("#item-id").value||crypto.randomUUID();const item={id,type:$("#item-type").value,period:$("#item-period").value,name:$("#item-name").value.trim(),duration:$("#item-duration").value.trim(),supplierCost:Number($("#supplier-cost").value)||0,price:Number($("#item-price").value)||0,pricingBasis:$("#pricing-basis").value,location:$("#item-location").value.trim(),notes:$("#item-notes").value.trim(),imageUrl:pendingImageUrl};const index=activeDay().items.findIndex(x=>x.id===id);if(index>=0)activeDay().items[index]=item;else activeDay().items.push(item);persist();$("#item-dialog").close();renderDays();toast(index>=0?"Item updated":"Item added")});
   $("#save").addEventListener("click",()=>{persist();toast("Working itinerary saved")});
   $("#print").addEventListener("click",downloadPdf);
   $("#export").addEventListener("click",()=>{syncMeta();const blob=new Blob([JSON.stringify(state,null,2)],{type:"application/json"}),url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download=`${state.meta.name.toLowerCase().replace(/[^a-z0-9]+/g,"-")||"itinerary"}.json`;a.click();URL.revokeObjectURL(url)});
