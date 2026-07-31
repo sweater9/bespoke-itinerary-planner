@@ -198,7 +198,7 @@
   $("#close-dialog").addEventListener("click",()=>$("#item-dialog").close());$("#cancel-dialog").addEventListener("click",()=>$("#item-dialog").close());
   $("#item-form").addEventListener("submit",event=>{event.preventDefault();const id=$("#item-id").value||crypto.randomUUID();const item={id,type:$("#item-type").value,period:$("#item-period").value,name:$("#item-name").value.trim(),duration:$("#item-duration").value.trim(),price:Number($("#item-price").value)||0,location:$("#item-location").value.trim(),notes:$("#item-notes").value.trim(),imageUrl:pendingImageUrl};const index=activeDay().items.findIndex(x=>x.id===id);if(index>=0)activeDay().items[index]=item;else activeDay().items.push(item);persist();$("#item-dialog").close();renderDays();toast(index>=0?"Item updated":"Item added")});
   $("#save").addEventListener("click",()=>{persist();toast("Working itinerary saved")});
-  $("#print").addEventListener("click",()=>{buildPrintDocument();window.print()});
+  $("#print").addEventListener("click",downloadPdf);
   $("#export").addEventListener("click",()=>{syncMeta();const blob=new Blob([JSON.stringify(state,null,2)],{type:"application/json"}),url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download=`${state.meta.name.toLowerCase().replace(/[^a-z0-9]+/g,"-")||"itinerary"}.json`;a.click();URL.revokeObjectURL(url)});
   init();
 })();
