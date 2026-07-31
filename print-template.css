@@ -27,8 +27,8 @@
   }
 
   .pdf-page {
-    min-height: 272mm;
     position: relative;
+    padding-bottom: 4mm;
     break-after: auto;
     page-break-after: auto;
   }
@@ -272,12 +272,14 @@
   }
 
   .pdf-footer {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    position: static;
+    margin-top: 6mm;
+    padding-top: 2mm;
+    border-top: 1px solid #e5e2ee;
     color: #9993ae;
     text-align: center;
     font-size: 7pt;
+    break-inside: avoid;
+    page-break-inside: avoid;
   }
 }
