@@ -143,80 +143,50 @@
     const pages=[cover,...itineraryPages,pricing];
     $("#print-document").innerHTML=pages.map((content,index)=>`<section class="pdf-page">${content}<div class="pdf-footer">${footer} · Page ${index+1} of ${pages.length}</div></section>`).join("");
   }
-  async function downloadPdf(){
-  buildPrintDocument();
+  function openPdfPreview(){
+    const previewWindow=window.open("","_blank");
+    if(!previewWindow){
+      toast("Allow pop-ups to open the PDF preview");
+      return;
+    }
 
-  if(typeof html2pdf!=="function"){
-    toast("PDF generator could not be loaded");
-    return;
-  }
+    buildPrintDocument();
+    const title=`${state.meta.name||"Bespoke Journey"} · PDF Preview`;
+    const stylesheetUrls=["styles.css","image-styles.css","pricing-styles.css","print-template.css"].map(path=>new URL(path,window.location.href).href);
+    const previewContent=$("#print-document").innerHTML;
 
-  const printMediaRules=[];
+    previewWindow.document.open();
+    previewWindow.document.write(`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escapeHTML(title)}</title>${stylesheetUrls.map(url=>`<link rel="stylesheet" href="${url}">`).join("")}<style>
+      .preview-toolbar{display:none}
+      body.preview-mode{display:block!important;min-height:100vh;margin:0;padding:72px 20px 24px;background:#e8e8ed}
+      body.preview-mode #print-document{display:block!important;width:210mm;margin:0 auto}
+      body.preview-mode .pdf-page{box-sizing:border-box;min-height:297mm;margin:0 auto 20px;padding:12mm;background:#fff;box-shadow:0 8px 30px rgba(27,22,53,.16)}
+      body.preview-mode .preview-toolbar{position:fixed;z-index:1000;top:14px;right:20px;display:flex!important;gap:10px;padding:8px;border:1px solid #d9d6e4;border-radius:12px;background:rgba(255,255,255,.96);box-shadow:0 5px 20px rgba(27,22,53,.15)}
+      .preview-toolbar button{border:0;border-radius:8px;padding:10px 16px;color:#fff;font:700 14px Arial,sans-serif;cursor:pointer;background:#51438a}
+      .preview-toolbar button:last-child{color:#51438a;background:#efedf8}
+      @media(max-width:850px){body.preview-mode{padding:68px 0 12px}body.preview-mode #print-document{width:210mm;transform-origin:top left}}
+    </style></head><body><main id="print-document"><div class="preview-toolbar"><button id="preview-print" type="button">Print / Save PDF</button><button id="preview-close" type="button">Close preview</button></div>${previewContent}</main></body></html>`);
+    previewWindow.document.close();
 
-  for(const sheet of document.styleSheets){
-    try{
-      for(const rule of sheet.cssRules){
-        if(rule instanceof CSSMediaRule&&rule.conditionText==="print"){
-          printMediaRules.push(rule);
-          rule.media.mediaText="all";
+    previewWindow.addEventListener("load",()=>{
+      for(const sheet of previewWindow.document.styleSheets){
+        try{
+          for(const rule of sheet.cssRules){
+            if(rule instanceof previewWindow.CSSMediaRule&&rule.conditionText==="print"){
+              rule.media.mediaText="all";
+            }
+          }
+        }catch(error){
+          // Ignore external stylesheets that the browser does not expose.
         }
       }
-    }catch(error){
-      // Ignore stylesheets whose rules cannot be read.
-    }
+      previewWindow.document.body.classList.add("preview-mode");
+      previewWindow.document.querySelector("#preview-print").addEventListener("click",()=>previewWindow.print());
+      previewWindow.document.querySelector("#preview-close").addEventListener("click",()=>previewWindow.close());
+      previewWindow.addEventListener("beforeprint",()=>previewWindow.document.body.classList.remove("preview-mode"));
+      previewWindow.addEventListener("afterprint",()=>previewWindow.document.body.classList.add("preview-mode"));
+    },{once:true});
   }
-
-  const documentElement=$("#print-document");
-  const previousWidth=documentElement.style.width;
-  documentElement.style.width="186mm";
-
-  const filename=`${
-    state.meta.name
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g,"-")
-      .replace(/^-|-$/g,"") || "itinerary"
-  }.pdf`;
-
-  try{
-    await new Promise(resolve =>
-      requestAnimationFrame(() => requestAnimationFrame(resolve))
-    );
-    const pendingImages=[...documentElement.images].filter(image=>!image.complete);
-    if(pendingImages.length){
-      await Promise.race([
-        Promise.all(pendingImages.map(image=>new Promise(resolve=>{image.addEventListener("load",resolve,{once:true});image.addEventListener("error",resolve,{once:true})}))),
-        new Promise(resolve=>setTimeout(resolve,6000))
-      ]);
-    }
-
-    await html2pdf().set({
-      margin:[12,12,12,12],
-      filename,
-      image:{type:"jpeg",quality:0.98},
-      html2canvas:{
-        scale:2,
-        useCORS:true,
-        backgroundColor:"#ffffff"
-      },
-      jsPDF:{
-        unit:"mm",
-        format:"a4",
-        orientation:"portrait"
-      },
-      pagebreak:{
-        mode:["css","legacy"]
-      }
-    }).from(documentElement).save();
-
-    toast("PDF downloaded");
-  }catch(error){
-    console.error("PDF generation failed",error);
-    toast("PDF generation failed");
-  }finally{
-    documentElement.style.width=previousWidth;
-    printMediaRules.forEach(rule => rule.media.mediaText="print");
-  }
-}
   function init(){
     $("#trip-name").value=state.meta.name;$("#client-name").value=state.meta.client;$("#start-date").value=state.meta.startDate;$("#guests").value=state.meta.guests;$("#currency").value=state.meta.currency;
     $("#tax-percent").value=state.meta.taxPercent;$("#service-fee").value=state.meta.serviceFee;$("#quote-valid-until").value=state.meta.quoteValidUntil;$("#show-item-prices").checked=state.meta.showItemPrices;$("#include-pdf-images").checked=state.meta.includePdfImages;$("#quote-terms").value=state.meta.terms;
@@ -237,7 +207,7 @@
   $("#close-dialog").addEventListener("click",()=>$("#item-dialog").close());$("#cancel-dialog").addEventListener("click",()=>$("#item-dialog").close());
   $("#item-form").addEventListener("submit",event=>{event.preventDefault();const id=$("#item-id").value||crypto.randomUUID();const item={id,type:$("#item-type").value,period:$("#item-period").value,name:$("#item-name").value.trim(),duration:$("#item-duration").value.trim(),supplierCost:Number($("#supplier-cost").value)||0,price:Number($("#item-price").value)||0,pricingBasis:$("#pricing-basis").value,location:$("#item-location").value.trim(),notes:$("#item-notes").value.trim(),imageUrl:pendingImageUrl};const index=activeDay().items.findIndex(x=>x.id===id);if(index>=0)activeDay().items[index]=item;else activeDay().items.push(item);persist();$("#item-dialog").close();renderDays();toast(index>=0?"Item updated":"Item added")});
   $("#save").addEventListener("click",()=>{persist();toast("Working itinerary saved")});
-  $("#print").addEventListener("click",downloadPdf);
+  $("#print").addEventListener("click",openPdfPreview);
   $("#export").addEventListener("click",()=>{syncMeta();const blob=new Blob([JSON.stringify(state,null,2)],{type:"application/json"}),url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download=`${state.meta.name.toLowerCase().replace(/[^a-z0-9]+/g,"-")||"itinerary"}.json`;a.click();URL.revokeObjectURL(url)});
   init();
 })();
